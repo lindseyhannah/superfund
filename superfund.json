@@ -1,0 +1,1544 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "23d3-v4ba",
+      "name" : "Superfund Sites",
+      "attribution" : "Toxics Cleanup Program : Washington Department of Ecology",
+      "averageRating" : 0,
+      "category" : "Natural Resources & Environment",
+      "createdAt" : 1418085908,
+      "description" : "This is a list of cleanup sites in Washington State. It includes sites and associated websites.  It includes location data, Cleanup Status, Site Rank – if the site is ranked, and if the site has an Environmental Covenant.  \r\n\r\nOver half the cleanup sites have a status of “No Further Action Required/Decision” or NFA.  If a site has a NFA it includes the latest NFA date and NFA reason.  \r\n\r\nThe Washington Department of Ecology (Toxics Cleanup Program) works to clean up contaminated sites/properties throughout the state of Washington. This data was downloaded from the Integrated Site Information System (ISIS) database and is monthly.",
+      "displayType" : "table",
+      "downloadCount" : 179,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "iconUrl" : "C0AF95A4-F0F8-4925-AF49-C2638EC5C77B",
+      "indexUpdatedAt" : 1537477587,
+      "moderationStatus" : true,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 9570604,
+      "provenance" : "community",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1401307373,
+      "publicationGroup" : 1087657,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1537477537,
+      "rowsUpdatedBy" : "dkdf-7x68",
+      "tableId" : 1597689,
+      "totalTimesRated" : 0,
+      "viewCount" : 890,
+      "viewLastModified" : 1418085908,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 178911344,
+        "name" : "Cleanup Site ID",
+        "dataTypeName" : "number",
+        "description" : "Unique cleanup site identifier (CSID) - system used to store basic information about cleanup",
+        "fieldName" : "cleanup_site_id",
+        "position" : 1,
+        "renderTypeName" : "number",
+        "tableColumnId" : 13558154,
+        "width" : 280,
+        "cachedContents" : {
+          "largest" : "13021",
+          "non_null" : 220,
+          "average" : "3056.827272727273",
+          "null" : 0,
+          "top" : [ {
+            "item" : "4616",
+            "count" : 20
+          }, {
+            "item" : "11780",
+            "count" : 19
+          }, {
+            "item" : "2502",
+            "count" : 18
+          }, {
+            "item" : "232",
+            "count" : 17
+          }, {
+            "item" : "949",
+            "count" : 16
+          }, {
+            "item" : "620",
+            "count" : 15
+          }, {
+            "item" : "650",
+            "count" : 14
+          }, {
+            "item" : "619",
+            "count" : 13
+          }, {
+            "item" : "4619",
+            "count" : 12
+          }, {
+            "item" : "2677",
+            "count" : 11
+          }, {
+            "item" : "6311",
+            "count" : 10
+          }, {
+            "item" : "2301",
+            "count" : 9
+          }, {
+            "item" : "3034",
+            "count" : 8
+          }, {
+            "item" : "1866",
+            "count" : 7
+          }, {
+            "item" : "2499",
+            "count" : 6
+          } ],
+          "smallest" : "47",
+          "sum" : "672502"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 178911345,
+        "name" : "Cleanup Site Name",
+        "dataTypeName" : "text",
+        "description" : "Cleanup Site Name – Note: other names may be associated with the site",
+        "fieldName" : "cleanup_site_name",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 13558155,
+        "width" : 304,
+        "cachedContents" : {
+          "largest" : "YAKIMA PLATING",
+          "non_null" : 220,
+          "null" : 0,
+          "top" : [ {
+            "item" : "PALERMO WELLFIELD",
+            "count" : 20
+          }, {
+            "item" : "FUDS HUMORIST OUTLYING FIELD",
+            "count" : 19
+          }, {
+            "item" : "FUDS WALLA WALLA AFB",
+            "count" : 18
+          }, {
+            "item" : "AZURITE MINE TAILING PILE",
+            "count" : 17
+          }, {
+            "item" : "BELLINGHAM PORT OF SQUALICUM",
+            "count" : 16
+          }, {
+            "item" : "FUDS BLAINE AFS",
+            "count" : 15
+          }, {
+            "item" : "NW Transformer Harkness",
+            "count" : 14
+          }, {
+            "item" : "NW TRANSFORMER MISSION POLE",
+            "count" : 13
+          }, {
+            "item" : "REESE HILL ROAD SITE",
+            "count" : 12
+          }, {
+            "item" : "FMC YAKIMA",
+            "count" : 11
+          }, {
+            "item" : "PARK N PAK",
+            "count" : 10
+          }, {
+            "item" : "US ARMY Yakima Training Center",
+            "count" : 9
+          }, {
+            "item" : "US DA PESTICIDE LABORATORY",
+            "count" : 8
+          }, {
+            "item" : "USFS SOUTH ROADS SITE",
+            "count" : 7
+          }, {
+            "item" : "YAKIMA PLATING",
+            "count" : 6
+          } ],
+          "smallest" : "AMERICAN CROSSARM & CONDUIT"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 178911346,
+        "name" : "Cleanup Status",
+        "dataTypeName" : "text",
+        "description" : "Cleanup Site Status\nAcronyms and Glossary\nhttp://www.ecy.wa.gov/programs/tcp/tcp_acronym_list.htm",
+        "fieldName" : "cleanup_status",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 13558156,
+        "width" : 268,
+        "cachedContents" : {
+          "largest" : "Tracked by EPA",
+          "non_null" : 220,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Cleanup Started",
+            "count" : 20
+          }, {
+            "item" : "Cleanup Complete-Active O&M/Monitoring",
+            "count" : 19
+          }, {
+            "item" : "No Further Action",
+            "count" : 18
+          }, {
+            "item" : "Awaiting Cleanup",
+            "count" : 17
+          }, {
+            "item" : "Tracked by EPA",
+            "count" : 16
+          }, {
+            "item" : "Construction Complete-Performance Monitoring",
+            "count" : 15
+          } ],
+          "smallest" : "Awaiting Cleanup"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 178911347,
+        "name" : "Statute",
+        "dataTypeName" : "text",
+        "description" : "(MTCA) - Model Toxics Control Act \n\n(CERCLA)  -Comprehensive Environmental Response, Compensation, and Liability Act (Federal Superfund Law)",
+        "fieldName" : "statute",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 13558157,
+        "width" : 184,
+        "cachedContents" : {
+          "largest" : "MTCA/CERCLA joint authority",
+          "non_null" : 220,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Federal  - CERCLA",
+            "count" : 20
+          }, {
+            "item" : "MTCA/CERCLA joint authority",
+            "count" : 19
+          } ],
+          "smallest" : "Federal  - CERCLA"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 178911348,
+        "name" : "Rank",
+        "dataTypeName" : "text",
+        "description" : "Washington Ranking Method (the method used to rank sites placed on the Hazardous Sites List)",
+        "fieldName" : "rank",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 13558158,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "2 - Moderate-High Risk",
+          "non_null" : 158,
+          "null" : 62,
+          "top" : [ {
+            "item" : "0 - NPL Site (Fed HRS Score)",
+            "count" : 20
+          }, {
+            "item" : "1 - Highest Assessed Risk",
+            "count" : 19
+          }, {
+            "item" : "2 - Moderate-High Risk",
+            "count" : 18
+          } ],
+          "smallest" : "0 - NPL Site (Fed HRS Score)"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 178911349,
+        "name" : "Responsible Section",
+        "dataTypeName" : "text",
+        "fieldName" : "responsible_section",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 13558159,
+        "width" : 328,
+        "cachedContents" : {
+          "largest" : "Southwest",
+          "non_null" : 220,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Nuclear Waste Prgm",
+            "count" : 20
+          }, {
+            "item" : "Central",
+            "count" : 19
+          }, {
+            "item" : "EPA",
+            "count" : 18
+          }, {
+            "item" : "Headquarters",
+            "count" : 17
+          }, {
+            "item" : "Southwest",
+            "count" : 16
+          }, {
+            "item" : "Eastern",
+            "count" : 15
+          }, {
+            "item" : "Northwest",
+            "count" : 14
+          } ],
+          "smallest" : "Central"
+        },
+        "format" : { }
+      }, {
+        "id" : 178911350,
+        "name" : "Has Environmental Covenant",
+        "dataTypeName" : "text",
+        "description" : "Environmental Covenants:  Measures taken to limit or prohibit activities that may interfere with the integrity of a cleanup action or that may result in exposure to hazardous substances. \nSynonyms:  Institutional Controls, Restrictive Covenants.",
+        "fieldName" : "has_environmental_covenant",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 13558160,
+        "width" : 412,
+        "cachedContents" : {
+          "largest" : "Yes",
+          "non_null" : 14,
+          "null" : 206,
+          "top" : [ {
+            "item" : "Yes",
+            "count" : 20
+          } ],
+          "smallest" : "Yes"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 178911351,
+        "name" : "County Name",
+        "dataTypeName" : "text",
+        "fieldName" : "county_name",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 13558161,
+        "width" : 232,
+        "cachedContents" : {
+          "largest" : "Yakima",
+          "non_null" : 220,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Benton",
+            "count" : 20
+          }, {
+            "item" : "Chelan",
+            "count" : 19
+          }, {
+            "item" : "Clallam",
+            "count" : 18
+          }, {
+            "item" : "Clark",
+            "count" : 17
+          }, {
+            "item" : "Cowlitz",
+            "count" : 16
+          }, {
+            "item" : "Franklin",
+            "count" : 15
+          }, {
+            "item" : "Grant",
+            "count" : 14
+          }, {
+            "item" : "Island",
+            "count" : 13
+          }, {
+            "item" : "Jefferson",
+            "count" : 12
+          }, {
+            "item" : "King",
+            "count" : 11
+          }, {
+            "item" : "Kitsap",
+            "count" : 10
+          }, {
+            "item" : "Lewis",
+            "count" : 9
+          }, {
+            "item" : "Mason",
+            "count" : 8
+          }, {
+            "item" : "Okanogan",
+            "count" : 7
+          }, {
+            "item" : "Pacific",
+            "count" : 6
+          }, {
+            "item" : "Pend Oreille",
+            "count" : 5
+          }, {
+            "item" : "Pierce",
+            "count" : 4
+          }, {
+            "item" : "Snohomish",
+            "count" : 3
+          }, {
+            "item" : "Spokane",
+            "count" : 2
+          }, {
+            "item" : "Stevens",
+            "count" : 1
+          } ],
+          "smallest" : "Benton"
+        },
+        "format" : { }
+      }, {
+        "id" : 178911352,
+        "name" : "Region",
+        "dataTypeName" : "text",
+        "fieldName" : "region",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 13558162,
+        "width" : 172,
+        "cachedContents" : {
+          "largest" : "Southwest",
+          "non_null" : 220,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Central",
+            "count" : 20
+          }, {
+            "item" : "Southwest",
+            "count" : 19
+          }, {
+            "item" : "Eastern",
+            "count" : 18
+          }, {
+            "item" : "Northwest",
+            "count" : 17
+          } ],
+          "smallest" : "Central"
+        },
+        "format" : { }
+      }, {
+        "id" : 178911353,
+        "name" : "Address",
+        "dataTypeName" : "text",
+        "fieldName" : "address",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 13558163,
+        "width" : 184,
+        "cachedContents" : {
+          "largest" : "W MARGINAL WAY SW & FLORIDA ST SW",
+          "non_null" : 211,
+          "null" : 9,
+          "top" : [ {
+            "item" : "HANFORD                                 ",
+            "count" : 20
+          }, {
+            "item" : "AULT FIELD NAS WHIDBEY ISLAND           ",
+            "count" : 19
+          }, {
+            "item" : "CLEAR CREEK RD BLDG 110",
+            "count" : 18
+          }, {
+            "item" : "52ND ST & BALTIMORE ST                  ",
+            "count" : 17
+          }, {
+            "item" : "FORT LEWIS                              ",
+            "count" : 16
+          }, {
+            "item" : "US HWY 2                                ",
+            "count" : 15
+          }, {
+            "item" : "92 CES CEVR 100 W ENT ST STE 155        ",
+            "count" : 14
+          }, {
+            "item" : "1804 1/2 S 3RD AVE",
+            "count" : 13
+          } ],
+          "smallest" : "                                        "
+        },
+        "format" : { }
+      }, {
+        "id" : 178911354,
+        "name" : "City",
+        "dataTypeName" : "text",
+        "fieldName" : "city",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 13558164,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "YAKIMA                   ",
+          "non_null" : 218,
+          "null" : 2,
+          "top" : [ {
+            "item" : "RICHLAND                 ",
+            "count" : 20
+          }, {
+            "item" : "Richland",
+            "count" : 19
+          }, {
+            "item" : "WENATCHEE                ",
+            "count" : 18
+          }, {
+            "item" : "VANCOUVER                ",
+            "count" : 17
+          }, {
+            "item" : "PASCO",
+            "count" : 16
+          }, {
+            "item" : "MOSES LAKE               ",
+            "count" : 15
+          }, {
+            "item" : "OAK HARBOR               ",
+            "count" : 14
+          }, {
+            "item" : "PORT HADLOCK             ",
+            "count" : 13
+          }, {
+            "item" : "SEATTLE",
+            "count" : 12
+          }, {
+            "item" : "ISSAQUAH                 ",
+            "count" : 11
+          }, {
+            "item" : "SEATTLE                  ",
+            "count" : 10
+          }, {
+            "item" : "BAINBRIDGE ISLAND        ",
+            "count" : 9
+          }, {
+            "item" : "BAINBRIDGE ISLAND",
+            "count" : 8
+          }, {
+            "item" : "KEYPORT                  ",
+            "count" : 7
+          }, {
+            "item" : "SILVERDALE               ",
+            "count" : 6
+          }, {
+            "item" : "SILVERDALE",
+            "count" : 5
+          }, {
+            "item" : "CHEHALIS                 ",
+            "count" : 4
+          }, {
+            "item" : "TACOMA                   ",
+            "count" : 3
+          }, {
+            "item" : "PUYALLUP                 ",
+            "count" : 2
+          }, {
+            "item" : "TACOMA",
+            "count" : 1
+          } ],
+          "smallest" : "BAINBRIDGE ISLAND"
+        },
+        "format" : { }
+      }, {
+        "id" : 178911355,
+        "name" : "ZipCode",
+        "dataTypeName" : "text",
+        "fieldName" : "zipcode",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 13558165,
+        "width" : 184,
+        "cachedContents" : {
+          "largest" : "99362     ",
+          "non_null" : 218,
+          "null" : 2,
+          "top" : [ {
+            "item" : "99352     ",
+            "count" : 20
+          }, {
+            "item" : "99352",
+            "count" : 19
+          }, {
+            "item" : "98278     ",
+            "count" : 18
+          }, {
+            "item" : "98339-5000",
+            "count" : 17
+          }, {
+            "item" : "98027     ",
+            "count" : 16
+          }, {
+            "item" : "98134     ",
+            "count" : 15
+          }, {
+            "item" : "98134",
+            "count" : 14
+          }, {
+            "item" : "98315     ",
+            "count" : 13
+          }, {
+            "item" : "98315",
+            "count" : 12
+          }, {
+            "item" : "98532     ",
+            "count" : 11
+          }, {
+            "item" : "98407     ",
+            "count" : 10
+          }, {
+            "item" : "98421",
+            "count" : 9
+          }, {
+            "item" : "98421     ",
+            "count" : 8
+          }, {
+            "item" : "98433-5000",
+            "count" : 7
+          }, {
+            "item" : "99207     ",
+            "count" : 6
+          }, {
+            "item" : "99011     ",
+            "count" : 5
+          }, {
+            "item" : "99011-9404",
+            "count" : 4
+          }, {
+            "item" : "99114     ",
+            "count" : 3
+          }, {
+            "item" : "98516",
+            "count" : 2
+          }, {
+            "item" : "98501     ",
+            "count" : 1
+          } ],
+          "smallest" : "98027     "
+        },
+        "format" : { }
+      }, {
+        "id" : 178911356,
+        "name" : "Facility Site ID",
+        "dataTypeName" : "number",
+        "description" : "FACILITY/SITE SYSTEM (an Agency-wide \"umbrella\" system used to store basic information about facilities / sites, such as site name(s) and location information.) ",
+        "fieldName" : "facility_site_id",
+        "position" : 13,
+        "renderTypeName" : "number",
+        "tableColumnId" : 13558166,
+        "width" : 292,
+        "cachedContents" : {
+          "largest" : "94284279",
+          "non_null" : 220,
+          "average" : "5010642.068181818",
+          "null" : 0,
+          "top" : [ {
+            "item" : "55237647",
+            "count" : 20
+          }, {
+            "item" : "16980",
+            "count" : 19
+          }, {
+            "item" : "129",
+            "count" : 18
+          }, {
+            "item" : "2921",
+            "count" : 17
+          }, {
+            "item" : "2912",
+            "count" : 16
+          }, {
+            "item" : "196",
+            "count" : 15
+          }, {
+            "item" : "195",
+            "count" : 14
+          }, {
+            "item" : "194",
+            "count" : 13
+          }, {
+            "item" : "64775283",
+            "count" : 12
+          }, {
+            "item" : "102",
+            "count" : 11
+          }, {
+            "item" : "56875216",
+            "count" : 10
+          }, {
+            "item" : "105",
+            "count" : 9
+          }, {
+            "item" : "103",
+            "count" : 8
+          }, {
+            "item" : "549",
+            "count" : 7
+          }, {
+            "item" : "104",
+            "count" : 6
+          } ],
+          "smallest" : "42",
+          "sum" : "1102341255"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 178911357,
+        "name" : "Legislative District",
+        "dataTypeName" : "number",
+        "fieldName" : "legislative_district",
+        "position" : 14,
+        "renderTypeName" : "number",
+        "tableColumnId" : 13558167,
+        "width" : 340,
+        "cachedContents" : {
+          "largest" : "49",
+          "non_null" : 220,
+          "average" : "18.90909090909091",
+          "null" : 0,
+          "top" : [ {
+            "item" : "8",
+            "count" : 20
+          }, {
+            "item" : "12",
+            "count" : 19
+          }, {
+            "item" : "24",
+            "count" : 18
+          }, {
+            "item" : "49",
+            "count" : 17
+          }, {
+            "item" : "20",
+            "count" : 16
+          }, {
+            "item" : "9",
+            "count" : 15
+          }, {
+            "item" : "13",
+            "count" : 14
+          }, {
+            "item" : "10",
+            "count" : 13
+          }, {
+            "item" : "33",
+            "count" : 12
+          }, {
+            "item" : "41",
+            "count" : 11
+          }, {
+            "item" : "36",
+            "count" : 10
+          }, {
+            "item" : "48",
+            "count" : 9
+          }, {
+            "item" : "11",
+            "count" : 8
+          }, {
+            "item" : "34",
+            "count" : 7
+          }, {
+            "item" : "5",
+            "count" : 6
+          }, {
+            "item" : "23",
+            "count" : 5
+          }, {
+            "item" : "35",
+            "count" : 4
+          }, {
+            "item" : "26",
+            "count" : 3
+          }, {
+            "item" : "7",
+            "count" : 2
+          }, {
+            "item" : "19",
+            "count" : 1
+          } ],
+          "smallest" : "2",
+          "sum" : "4160"
+        },
+        "format" : { }
+      }, {
+        "id" : 178911358,
+        "name" : "Congressional District",
+        "dataTypeName" : "number",
+        "fieldName" : "congressional_district",
+        "position" : 15,
+        "renderTypeName" : "number",
+        "tableColumnId" : 13558168,
+        "width" : 364,
+        "cachedContents" : {
+          "largest" : "10",
+          "non_null" : 220,
+          "average" : "5.554545454545455",
+          "null" : 0,
+          "top" : [ {
+            "item" : "4",
+            "count" : 20
+          }, {
+            "item" : "8",
+            "count" : 19
+          }, {
+            "item" : "6",
+            "count" : 18
+          }, {
+            "item" : "3",
+            "count" : 17
+          }, {
+            "item" : "2",
+            "count" : 16
+          }, {
+            "item" : "9",
+            "count" : 15
+          }, {
+            "item" : "7",
+            "count" : 14
+          }, {
+            "item" : "1",
+            "count" : 13
+          }, {
+            "item" : "5",
+            "count" : 12
+          }, {
+            "item" : "10",
+            "count" : 11
+          } ],
+          "smallest" : "1",
+          "sum" : "1222"
+        },
+        "format" : { }
+      }, {
+        "id" : 178911359,
+        "name" : "Website",
+        "dataTypeName" : "url",
+        "description" : "Cleanup Site Search\nhttps://fortress.wa.gov/ecy/gsp/SiteSearchPage.aspx",
+        "fieldName" : "website",
+        "position" : 16,
+        "renderTypeName" : "url",
+        "tableColumnId" : 13558169,
+        "width" : 184,
+        "cachedContents" : {
+          "largest" : {
+            "url" : "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=949"
+          },
+          "non_null" : 181,
+          "null" : 39,
+          "top" : [ {
+            "item" : {
+              "url" : "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=4519"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "url" : "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=4492"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "url" : "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=4616"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "url" : "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=11780"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "url" : "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2502"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "url" : "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=232"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "url" : "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=949"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "url" : "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=620"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "url" : "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=650"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "url" : "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=619"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "url" : "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=4619"
+            },
+            "count" : 10
+          }, {
+            "item" : {
+              "url" : "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2677"
+            },
+            "count" : 9
+          }, {
+            "item" : {
+              "url" : "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=6311"
+            },
+            "count" : 8
+          }, {
+            "item" : {
+              "url" : "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2301"
+            },
+            "count" : 7
+          }, {
+            "item" : {
+              "url" : "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=3034"
+            },
+            "count" : 6
+          }, {
+            "item" : {
+              "url" : "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=1866"
+            },
+            "count" : 5
+          }, {
+            "item" : {
+              "url" : "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2499"
+            },
+            "count" : 4
+          } ],
+          "smallest" : {
+            "url" : "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=1020"
+          }
+        },
+        "format" : {
+          "align" : "left"
+        },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 178911360,
+        "name" : "Latitude",
+        "dataTypeName" : "number",
+        "fieldName" : "latitude",
+        "position" : 17,
+        "renderTypeName" : "number",
+        "tableColumnId" : 13558170,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "48.998333",
+          "non_null" : 220,
+          "average" : "47.31112724545455",
+          "null" : 0,
+          "top" : [ {
+            "item" : "48.333160",
+            "count" : 20
+          }, {
+            "item" : "47.133150",
+            "count" : 19
+          }, {
+            "item" : "47.616560",
+            "count" : 18
+          }, {
+            "item" : "47.624890",
+            "count" : 17
+          } ],
+          "smallest" : "45.619590",
+          "sum" : "10408.447994"
+        },
+        "format" : { }
+      }, {
+        "id" : 178911361,
+        "name" : "Longitude",
+        "dataTypeName" : "number",
+        "fieldName" : "longitude",
+        "position" : 18,
+        "renderTypeName" : "number",
+        "tableColumnId" : 13558171,
+        "width" : 208,
+        "cachedContents" : {
+          "largest" : "-117.111652",
+          "non_null" : 220,
+          "average" : "-121.0038164272727",
+          "null" : 0,
+          "top" : [ {
+            "item" : "-122.667950",
+            "count" : 20
+          }, {
+            "item" : "-117.517710",
+            "count" : 19
+          }, {
+            "item" : "-120.509870",
+            "count" : 18
+          } ],
+          "smallest" : "-124.053030",
+          "sum" : "-26620.839614"
+        },
+        "format" : { }
+      }, {
+        "id" : 178911362,
+        "name" : "Location",
+        "dataTypeName" : "location",
+        "fieldName" : "location",
+        "position" : 19,
+        "renderTypeName" : "location",
+        "tableColumnId" : 13558172,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : {
+            "latitude" : "46.69984",
+            "human_address" : "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+            "longitude" : "-119.48664"
+          },
+          "non_null" : 220,
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "latitude" : "48.33316",
+              "human_address" : "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-122.66795"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "latitude" : "47.61656",
+              "human_address" : "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-117.51771"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "latitude" : "47.62489",
+              "human_address" : "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-117.51771"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "latitude" : "46.748333",
+              "human_address" : "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-120.788305"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "latitude" : "46.57265",
+              "human_address" : "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-120.50987"
+            },
+            "count" : 16
+          } ],
+          "smallest" : {
+            "latitude" : "46.69984",
+            "human_address" : "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+            "longitude" : "-119.48664"
+          }
+        },
+        "format" : {
+          "view" : "coords",
+          "align" : "left"
+        },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      }, {
+        "id" : 178911363,
+        "name" : "No Further Action Date",
+        "dataTypeName" : "calendar_date",
+        "description" : "No Further Action Date(latest)",
+        "fieldName" : "no_further_action_date",
+        "position" : 20,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 19977896,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "2018-08-20T00:00:00",
+          "non_null" : 52,
+          "null" : 168,
+          "top" : [ {
+            "item" : "1997-02-24T00:00:00",
+            "count" : 20
+          }, {
+            "item" : "1996-01-27T00:00:00",
+            "count" : 19
+          }, {
+            "item" : "1995-08-22T00:00:00",
+            "count" : 18
+          }, {
+            "item" : "1997-02-01T00:00:00",
+            "count" : 17
+          }, {
+            "item" : "2000-10-01T00:00:00",
+            "count" : 16
+          }, {
+            "item" : "1997-08-19T00:00:00",
+            "count" : 15
+          }, {
+            "item" : "1996-01-16T00:00:00",
+            "count" : 14
+          }, {
+            "item" : "1993-09-07T00:00:00",
+            "count" : 13
+          }, {
+            "item" : "1998-01-20T00:00:00",
+            "count" : 12
+          }, {
+            "item" : "1994-08-23T00:00:00",
+            "count" : 11
+          } ],
+          "smallest" : "1991-09-10T00:00:00"
+        },
+        "format" : { }
+      }, {
+        "id" : 178911364,
+        "name" : "No Further Action Reason",
+        "dataTypeName" : "text",
+        "description" : "No Further Action Reason(latest)",
+        "fieldName" : "no_further_action_reason",
+        "position" : 21,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19977897,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "NFA-Voluntary Cleanup Program Review",
+          "non_null" : 52,
+          "null" : 168,
+          "top" : [ {
+            "item" : "NFA-SHA IRAP or VCP",
+            "count" : 20
+          }, {
+            "item" : "NFA-Federal Supervised/Conducted Cleanup",
+            "count" : 19
+          }, {
+            "item" : "NFA-Site Hazard Assessment",
+            "count" : 18
+          }, {
+            "item" : "NFA-Voluntary Cleanup Program Review",
+            "count" : 17
+          }, {
+            "item" : "NFA-Initial Investigation",
+            "count" : 16
+          }, {
+            "item" : "Cleanup Completed not on HSL",
+            "count" : 15
+          }, {
+            "item" : "NFA-Ecology Supervised/Conducted Cleanup",
+            "count" : 14
+          }, {
+            "item" : "NFA-Independent Cleanup Reviewed by Ecology",
+            "count" : 13
+          } ],
+          "smallest" : "Cleanup Completed not on HSL"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : true,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "conditionalFormatting" : [ {
+          "condition" : {
+            "tableColumnId" : 13558157,
+            "_key" : "(13558157|EQUALS|Federal - CERCLA)",
+            "value" : "Federal - CERCLA",
+            "operator" : "EQUALS"
+          },
+          "color" : "#9900ff",
+          "description" : "Superfunds"
+        } ],
+        "custom_fields" : {
+          "Notes" : {
+            "1. " : "Cleanup Site Webpages https://fortress.wa.gov/ecy/gsp/SiteSearchPage.aspx",
+            "2. " : "Toxics Cleanup Program Homepage http://www.ecy.wa.gov/programs/tcp/cleanup.html",
+            "3. " : "Data Disclaimer http://www.ecy.wa.gov/copyright.html",
+            "4. " : "Data updated monthly"
+          }
+        },
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "hd9f-xkba",
+        "displayName" : "christine",
+        "screenName" : "christine",
+        "type" : "interactive"
+      },
+      "query" : {
+        "filterCondition" : {
+          "type" : "operator",
+          "value" : "AND",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "OR",
+            "children" : [ {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnId" : 178911347,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "Federal  - CERCLA"
+              } ],
+              "metadata" : {
+                "freeform" : false
+              }
+            }, {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnId" : 178911347,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "MTCA/CERCLA joint authority"
+              } ],
+              "metadata" : {
+                "freeform" : false
+              }
+            } ],
+            "metadata" : {
+              "tableColumnId" : {
+                "1087657" : 13558157
+              },
+              "includeAuto" : 5,
+              "operator" : "EQUALS"
+            }
+          } ],
+          "metadata" : {
+            "unifiedVersion" : 2
+          }
+        },
+        "orderBys" : [ {
+          "ascending" : true,
+          "expression" : {
+            "columnId" : 178911345,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "dkdf-7x68",
+        "displayName" : "Toxics Cleanup Program",
+        "profileImageUrlLarge" : "/api/users/dkdf-7x68/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/dkdf-7x68/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/dkdf-7x68/profile_images/TINY",
+        "screenName" : "Toxics Cleanup Program",
+        "type" : "interactive"
+      },
+      "tags" : [ "cleanup sites", "mtca", "warm ranking", "toxics cleanup", "cleanup", "cleanup status", "ecology", "nfa date", "nfa reason" ]
+    }
+  },
+  "data" : [ [ 3260125, "706C2E72-4C87-427F-BE38-00D1CE501CF6", 3260125, 1537477530, "706691", 1537477530, "706691", null, "4709", "HANFORD 100 AREA DOE", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "100 AREA                                ", "RICHLAND                 ", "99352     ", "312", "8", "4", [ null, null ], "46.699840", "-119.486640", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.69984", "-119.48664", null, false ], null, null ]
+, [ 3260126, "AA8BE7CC-DC70-43DB-9A41-5F62377509C2", 3260126, 1537477530, "706691", 1537477530, "706691", null, "4412", "HANFORD 1100 AREA DOE", "Cleanup Complete-Active O&M/Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "1100 AREA                               ", "RICHLAND                 ", "99352     ", "313", "8", "4", [ null, null ], "46.333740", "-119.289610", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.33374", "-119.28961", null, false ], null, null ]
+, [ 3260127, "46A5A5EB-1F9C-4932-A0F8-FB3F4D14B3D9", 3260127, 1537477530, "706691", 1537477530, "706691", null, "4055", "HANFORD 200 AREA DOE", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "200 AREA                                ", "RICHLAND                 ", "99352     ", "314", "8", "4", [ null, null ], "46.556200", "-119.534420", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.5562", "-119.53442", null, false ], null, null ]
+, [ 3260128, "923145BF-BE01-486B-87AA-C563C2A1B153", 3260128, 1537477530, "706691", 1537477530, "706691", null, "4231", "HANFORD 300 AREA DOE", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "300 AREA                                ", "RICHLAND                 ", "99352     ", "315", "8", "4", [ null, null ], "46.368190", "-119.278030", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.36819", "-119.27803", null, false ], null, null ]
+, [ 3260243, "D9EDB3AF-E10E-4B59-A52C-3FD5D5713401", 3260243, 1537477530, "706691", 1537477530, "706691", null, "2703", "US DOE 100-BC-1", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "2378818", "8", "4", [ null, null ], "46.634676", "-119.643799", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.634676", "-119.643799", null, false ], null, null ]
+, [ 3260244, "DCF70C0F-435B-4667-905F-23F995504668", 3260244, 1537477530, "706691", 1537477530, "706691", null, "2724", "US DOE 100-BC-2", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "9700762", "8", "4", [ null, null ], "46.626040", "-119.648925", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.62604", "-119.648925", null, false ], null, null ]
+, [ 3260245, "09502912-C52D-47F9-BB2C-C86B0BB76106", 3260245, 1537477530, "706691", 1537477530, "706691", null, "2155", "US DOE 100-BC-5", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "1927670", "8", "4", [ null, null ], "46.631469", "-119.645546", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.631469", "-119.645546", null, false ], null, null ]
+, [ 3260246, "DC629DA3-C77D-4674-8134-910F8609AB41", 3260246, 1537477530, "706691", 1537477530, "706691", null, "3877", "US DOE 100-DR-1", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "393245", "8", "4", [ null, null ], "46.695663", "-119.537945", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.695663", "-119.537945", null, false ], null, null ]
+, [ 3260247, "FEE8C2AD-087D-44E0-B5E3-6A329A42529A", 3260247, 1537477530, "706691", 1537477530, "706691", null, "4610", "US DOE 100-DR-2", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "1268683", "8", "4", [ null, null ], "46.688728", "-119.536760", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.688728", "-119.53676", null, false ], null, null ]
+, [ 3260248, "BB0DA100-19AF-4920-8391-9775FAB8B274", 3260248, 1537477530, "706691", 1537477530, "706691", null, "3887", "US DOE 100-FR-1", "Cleanup Complete-Active O&M/Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "6412945", "8", "4", [ null, null ], "46.659962", "-119.448530", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.659962", "-119.44853", null, false ], null, null ]
+, [ 3260249, "C2AFC526-6A20-49E6-A739-588299E67B82", 3260249, 1537477530, "706691", 1537477530, "706691", null, "3455", "US DOE 100-FR-2", "Cleanup Complete-Active O&M/Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "154273", "8", "4", [ null, null ], "46.652716", "-119.447698", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.652716", "-119.447698", null, false ], null, null ]
+, [ 3260250, "17C534CD-B649-46FF-8A6C-F81E16DB9654", 3260250, 1537477530, "706691", 1537477530, "706691", null, "2166", "US DOE 100-FR-3", "Cleanup Complete-Active O&M/Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "7261793", "8", "4", [ null, null ], "46.640744", "-119.458226", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.640744", "-119.458226", null, false ], null, null ]
+, [ 3260251, "BDD83E2C-3BC1-4750-A228-7051FBD22A38", 3260251, 1537477530, "706691", 1537477530, "706691", null, "1774", "US DOE 100-HR-1", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "5266750", "8", "4", [ null, null ], "46.703213", "-119.481568", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.703213", "-119.481568", null, false ], null, null ]
+, [ 3260252, "F784E02C-6119-4ADF-87D2-052571DA59FE", 3260252, 1537477530, "706691", 1537477530, "706691", null, "2989", "US DOE 100-HR-2", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "4509019", "8", "4", [ null, null ], "46.699242", "-119.483120", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.699242", "-119.48312", null, false ], null, null ]
+, [ 3260253, "FF88CD83-643A-445F-9345-03FE2F27920C", 3260253, 1537477530, "706691", 1537477530, "706691", null, "4035", "US DOE 100-HR-3", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "6588489", "8", "4", [ null, null ], "46.695621", "-119.510192", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.695621", "-119.510192", null, false ], null, null ]
+, [ 3260254, "196CC938-1102-4784-9BF7-3D94EF5F0F0C", 3260254, 1537477530, "706691", 1537477530, "706691", null, "4014", "US DOE 100-IU-2", "Cleanup Complete-Active O&M/Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "4096480", "8", "4", [ null, null ], "46.662724", "-119.479522", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.662724", "-119.479522", null, false ], null, null ]
+, [ 3260255, "DCB923A5-5A7D-45D1-B4B6-4D59D80475B0", 3260255, 1537477530, "706691", 1537477530, "706691", null, "3574", "US DOE 100-IU-6", "Cleanup Complete-Active O&M/Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "8158748", "8", "4", [ null, null ], "46.594003", "-119.424083", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.594003", "-119.424083", null, false ], null, null ]
+, [ 3260256, "4ACE3579-A8C8-4BE4-B693-5A266B21F47C", 3260256, 1537477530, "706691", 1537477530, "706691", null, "3975", "US DOE 100-KR-1", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "227899", "8", "4", [ null, null ], "46.656433", "-119.593550", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.656433", "-119.59355", null, false ], null, null ]
+, [ 3260257, "AD99D843-D405-4BF9-9ED2-A4C88759F66C", 3260257, 1537477530, "706691", 1537477530, "706691", null, "2046", "US DOE 100-KR-2", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "1777551", "8", "4", [ null, null ], "46.648113", "-119.596893", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.648113", "-119.596893", null, false ], null, null ]
+, [ 3260258, "254530BF-D0A1-4DB5-97EE-DDBE791A4D5A", 3260258, 1537477530, "706691", 1537477530, "706691", null, "2634", "US DOE 100-KR-4", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "6272765", "8", "4", [ null, null ], "46.652678", "-119.594885", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.652678", "-119.594885", null, false ], null, null ]
+, [ 3260259, "733BCD38-D78E-44F3-8E92-64A51A69AD31", 3260259, 1537477530, "706691", 1537477530, "706691", null, "2815", "US DOE 100-NR-1", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "8528558", "8", "4", [ null, null ], "46.673842", "-119.560789", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.673842", "-119.560789", null, false ], null, null ]
+, [ 3260260, "1A1550D3-DD24-4C5E-9746-1CB2FED2A280", 3260260, 1537477530, "706691", 1537477530, "706691", null, "2924", "US DOE 100-NR-2", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "6495974", "8", "4", [ null, null ], "46.673022", "-119.562560", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.673022", "-119.56256", null, false ], null, null ]
+, [ 3260261, "A9D8C987-32B3-4E31-B8FA-FA84CEABCC2D", 3260261, 1537477530, "706691", 1537477530, "706691", null, "11583", "US DOE 200-BC-1", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", null, "Richland", "99352", "9481", "8", "4", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=11583", null ], "46.538580", "-119.543840", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.53858", "-119.54384", null, false ], null, null ]
+, [ 3260262, "EB7856A0-68C5-4ACC-8691-172D718D3D3C", 3260262, 1537477530, "706691", 1537477530, "706691", null, "2167", "US DOE 200-CW-1", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "7392964", "8", "4", [ null, null ], "46.570556", "-119.510418", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.570556", "-119.510418", null, false ], null, null ]
+, [ 3260263, "8C4FE2E4-3F42-4CE6-915C-2FC7D15896E5", 3260263, 1537477530, "706691", 1537477530, "706691", null, "384", "US DOE 200-CW-3", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "9613161", "8", "4", [ null, null ], "46.588482", "-119.574782", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.588482", "-119.574782", null, false ], null, null ]
+, [ 3260264, "75117DE7-A5FE-4C0D-97B7-B1E1F78B53FE", 3260264, 1537477530, "706691", 1537477530, "706691", null, "4251", "US DOE 200-CW-5", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "8848136", "8", "4", [ null, null ], "46.542378", "-119.635626", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.542378", "-119.635626", null, false ], null, null ]
+, [ 3260265, "C5EDA443-BE37-4BBC-8284-AC43D821470D", 3260265, 1537477530, "706691", 1537477530, "706691", null, "11582", "US DOE 200-DV-1", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", null, "Richland", "99352", "7612", "8", "4", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=11582", null ], "46.553470", "-119.586100", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.55347", "-119.5861", null, false ], null, null ]
+, [ 3260266, "2687B24F-625A-4950-B85B-BA07362BA731", 3260266, 1537477530, "706691", 1537477530, "706691", null, "11580", "US DOE 200-EA-1", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", null, "Richland", "99352", "19777", "8", "4", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=11580", null ], "46.555600", "-119.526300", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.5556", "-119.5263", null, false ], null, null ]
+, [ 3260267, "C0788EF7-A27F-4189-B618-A5A8B89077F4", 3260267, 1537477530, "706691", 1537477530, "706691", null, "182", "US DOE 200-IS-1", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "1503490", "8", "4", [ null, null ], "46.549457", "-119.583075", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.549457", "-119.583075", null, false ], null, null ]
+, [ 3260268, "6817B81C-5BBE-4D89-8CD6-8925D85E268A", 3260268, 1537477530, "706691", 1537477530, "706691", null, "4641", "US DOE 200-MG-1", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "6600397", "8", "4", [ null, null ], "46.556200", "-119.554420", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.5562", "-119.55442", null, false ], null, null ]
+, [ 3260269, "BB697B2C-99D0-46E8-B570-D95B3C491E3A", 3260269, 1537477530, "706691", 1537477530, "706691", null, "3989", "US DOE 200-MG-2", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "4302799", "8", "4", [ null, null ], "46.556200", "-119.554420", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.5562", "-119.55442", null, false ], null, null ]
+, [ 3260270, "F7852134-4028-4D09-8585-3A7C363ED523", 3260270, 1537477530, "706691", 1537477530, "706691", null, "11581", "US DOE 200-OA-1", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", null, "Richland", "99352", "7528", "8", "4", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=11581", null ], "46.542100", "-119.556400", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.5421", "-119.5564", null, false ], null, null ]
+, [ 3260271, "FF46AE99-840F-4074-A664-51FBCAAE3848", 3260271, 1537477530, "706691", 1537477530, "706691", null, "1108", "US DOE 200-PW-1", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "7919861", "8", "4", [ null, null ], "46.549176", "-119.631905", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.549176", "-119.631905", null, false ], null, null ]
+, [ 3260272, "A5FAD4C8-F160-43F0-AB26-B86385ABF3E1", 3260272, 1537477530, "706691", 1537477530, "706691", null, "241", "US DOE 200-PW-3", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "1703585", "8", "4", [ null, null ], "46.555260", "-119.513979", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.55526", "-119.513979", null, false ], null, null ]
+, [ 3260273, "B6CBCE9E-3809-4A1B-8B68-147AF4C18918", 3260273, 1537477530, "706691", 1537477530, "706691", null, "1572", "US DOE 200-PW-6", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "974879", "8", "4", [ null, null ], "46.553005", "-119.631955", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.553005", "-119.631955", null, false ], null, null ]
+, [ 3260274, "C32D1704-8A66-40F9-A799-1224510C999D", 3260274, 1537477530, "706691", 1537477530, "706691", null, "987", "US DOE 200-SW-2", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "1711445", "8", "4", [ null, null ], "46.562546", "-119.581893", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.562546", "-119.581893", null, false ], null, null ]
+, [ 3260275, "0AA97E10-4669-41F6-92AE-B931C745EEBC", 3260275, 1537477530, "706691", 1537477530, "706691", null, "11562", "US DOE 200-WA-1", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "200 AREA                                ", "RICHLAND                 ", "99352     ", "314", "8", "4", [ null, null ], "46.556200", "-119.534420", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.5562", "-119.53442", null, false ], null, null ]
+, [ 3260276, "A3F4AA25-9FD4-4E9B-80FB-ECCFB09D6D9E", 3260276, 1537477530, "706691", 1537477530, "706691", null, "11579", "US DOE 200-WA-1 OU", "Cleanup Started", "Federal  - CERCLA", null, "Nuclear Waste Prgm", null, "Benton", "Central", null, "Richland", "99352", "20217", "8", "4", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=11579", null ], "46.546700", "-119.624300", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.5467", "-119.6243", null, false ], null, null ]
+, [ 3260277, "ADCE17CF-18C9-4BC6-B651-862689150DB7", 3260277, 1537477530, "706691", 1537477530, "706691", null, "2706", "US DOE 300-FF-1", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "2504962", "8", "4", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2706", null ], "46.375404", "-119.274988", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.375404", "-119.274988", null, false ], null, null ]
+, [ 3260278, "0964EF32-8607-43EB-B312-AB46F1AB0721", 3260278, 1537477530, "706691", 1537477530, "706691", null, "292", "US DOE 300-FF-2", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "498835", "8", "4", [ null, null ], "46.375203", "-119.283819", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.375203", "-119.283819", null, false ], null, null ]
+, [ 3260279, "D5D01F08-EEC0-48CC-BB61-AD7BCF088310", 3260279, 1537477530, "706691", 1537477530, "706691", null, "2435", "US DOE 300-FF-5", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "7395522", "8", "4", [ null, null ], "46.370717", "-119.283122", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.370717", "-119.283122", null, false ], null, null ]
+, [ 3260280, "5B77BEA7-CECC-420C-A78C-4A61BF022728", 3260280, 1537477530, "706691", 1537477530, "706691", null, "801", "US DOE 384 Powerhouse Bunker", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Nuclear Waste Prgm", null, "Benton", "Central", "HANFORD                                 ", "RICHLAND                 ", "99352     ", "600078", "8", "4", [ null, null ], "46.370803", "-119.278581", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.370803", "-119.278581", null, false ], null, null ]
+, [ 3260377, "5AB328C5-39A5-48C2-9A66-621A6089FEDB", 3260377, 1537477530, "706691", 1537477530, "706691", null, "4417", "FRIDAY PAK STOCKPILE", "No Further Action", "Federal  - CERCLA", null, "Central", null, "Chelan", "Central", "SR 97A                                  ", "WENATCHEE                ", "98801     ", "363", "12", "8", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=4417", null ], "47.488740", "-120.314520", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.48874", "-120.31452", null, false ], "1997-02-24T00:00:00", "NFA-SHA IRAP or VCP" ]
+, [ 3260392, "081D2014-6F4E-422D-8085-93E2B8F8C600", 3260392, 1537477530, "706691", 1537477530, "706691", null, "4414", "Holden Mine", "Cleanup Started", "MTCA/CERCLA joint authority", "1 - Highest Assessed Risk", "EPA", null, "Chelan", "Central", "S7 T31N R17EWM                          ", "HOLDEN                   ", "98816     ", "338", "12", "8", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=4414", null ], "48.198190", "-120.778160", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.19819", "-120.77816", null, false ], null, null ]
+, [ 3260414, "595F5D53-A24D-4D38-917D-1CB855288E09", 3260414, 1537477530, "706691", 1537477530, "706691", null, "12729", "Leavenworth National Fish Hatchery Shooting Range", "No Further Action", "Federal  - CERCLA", null, "Central", null, "Chelan", "Central", "12790 FISH HATCHERY RD                  ", "LEAVENWORTH              ", "98826     ", "53739918", "12", "8", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=12729", null ], "47.556685", "-120.675923", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.556685", "-120.675923", null, false ], "2018-08-20T00:00:00", "NFA-Federal Supervised/Conducted Cleanup" ]
+, [ 3260435, "428511AC-A98B-4C7C-BBB2-488F3808DC9B", 3260435, 1537477530, "706691", 1537477530, "706691", null, "4235", "MISSION RIDGE SKI AREA", "No Further Action", "Federal  - CERCLA", null, "Central", null, "Chelan", "Central", "S1/2 S24 T21N R19EWM                    ", "WENATCHEE                ", "98801     ", "364", "12", "8", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=4235", null ], "47.293242", "-120.399203", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.293242", "-120.399203", null, false ], "2003-01-28T00:00:00", "NFA-Site Hazard Assessment" ]
+, [ 3260479, "4618154C-C016-4CAD-B4ED-9F3E8F3F8B54", 3260479, 1537477530, "706691", 1537477530, "706691", null, "4458", "SUNNYSLOPE HEIGHTS", "No Further Action", "Federal  - CERCLA", null, "Central", null, "Chelan", "Central", "SR 2                                    ", "WENATCHEE                ", "98801     ", "362", "12", "8", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=4458", null ], "47.477620", "-120.342850", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.47762", "-120.34285", null, false ], "1997-02-24T00:00:00", "NFA-SHA IRAP or VCP" ]
+, [ 3260487, "28A688C3-2737-4B5C-9EDA-2EEDE3132EA3", 3260487, 1537477530, "706691", 1537477530, "706691", null, "4059", "US DA FS Leavenworth RS", "No Further Action", "Federal  - CERCLA", null, "Central", null, "Chelan", "Central", "600 SHERBOURNE                          ", "LEAVENWORTH              ", "98826     ", "365", "12", "8", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=4059", null ], "47.597599", "-120.660738", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.597599", "-120.660738", null, false ], "1997-02-19T00:00:00", "NFA-SHA IRAP or VCP" ]
+, [ 3260574, "CEB5A1ED-013F-4234-9501-47511759922C", 3260574, 1537477530, "706691", 1537477530, "706691", null, "11715", "FUDS Port Angeles Combat Range", "Awaiting Cleanup", "Federal  - CERCLA", null, "Headquarters", null, "Clallam", "Southwest", "T29 N R5 W SECTIONS 5 8 17", "PORT ANGELES", "98362", "13492", "24", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=11715", null ], "48.036562", "-123.343996", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.036562", "-123.343996", null, false ], null, null ]
+, [ 3260730, "54DDB3BD-7207-4804-8B9E-0C3CB495F109", 3260730, 1537477530, "706691", 1537477530, "706691", null, "586", "Boomsnub Airco Superfund Site", "Tracked by EPA", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Clark", "Southwest", "7608 NE 47TH AVE                        ", "VANCOUVER                ", "98661     ", "198", "49", "3", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=586", null ], "45.676600", "-122.622910", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "45.6766", "-122.62291", null, false ], null, null ]
+, [ 3260857, "DC37B8DE-7CBD-414D-B929-A574B12DD53B", 3260857, 1537477530, "706691", 1537477530, "706691", null, "535", "Frontier Hardchrome", "Cleanup Complete-Active O&M/Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Southwest", null, "Clark", "Southwest", "113 Y ST", "VANCOUVER", "98661", "197", "49", "3", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=535", null ], "45.621717", "-122.645355", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "45.621717", "-122.645355", null, false ], null, null ]
+, [ 3261108, "FB3C6F77-7A5C-4ED3-BCB6-63F9ED6D31ED", 3261108, 1537477530, "706691", 1537477530, "706691", null, "711", "US BPA ROSS OUA", "No Further Action", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Clark", "Southwest", "5411 NE HWY 99                          ", "VANCOUVER                ", "98666     ", "200", "49", "3", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=711", null ], "45.658170", "-122.651210", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "45.65817", "-122.65121", null, false ], "1997-01-27T00:00:00", "NFA-Federal Supervised/Conducted Cleanup" ]
+, [ 3261109, "129AC5F3-BA1D-4F90-9D84-2DF78361C50D", 3261109, 1537477530, "706691", 1537477530, "706691", null, "110", "US BPA ROSS OUB", "No Further Action", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Clark", "Southwest", "5411 NE HWY 99                          ", "VANCOUVER                ", "98666     ", "201", "49", "3", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=110", null ], "45.658170", "-122.651210", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "45.65817", "-122.65121", null, false ], "1996-01-27T00:00:00", "NFA-Federal Supervised/Conducted Cleanup" ]
+, [ 3261110, "CCBB5D6E-AF81-4C78-AF24-DF791B53AE24", 3261110, 1537477530, "706691", 1537477530, "706691", null, "536", "US DOE BPA Ross Complex", "No Further Action", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Clark", "Southwest", "5411 NE HWY 99                          ", "VANCOUVER                ", "98666     ", "199", "49", "3", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=536", null ], "45.661880", "-122.665200", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "45.66188", "-122.6652", null, false ], "1996-01-27T00:00:00", "NFA-Federal Supervised/Conducted Cleanup" ]
+, [ 3261122, "993B6CB0-D119-4559-A457-9357689EBC36", 3261122, 1537477530, "706691", 1537477530, "706691", null, "651", "Vancouver City Blandford Station 4", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Clark", "Southwest", "4415 E 5TH ST                           ", "VANCOUVER                ", "98661     ", "202", "49", "3", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=651", null ], "45.619590", "-122.624680", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "45.61959", "-122.62468", null, false ], null, null ]
+, [ 3261333, "2959E8A3-E13D-4174-9CC9-7A3E4B92E333", 3261333, 1537477530, "706691", 1537477530, "706691", null, "6357", "MERMAC STORE & RV PARK", "No Further Action", "Federal  - CERCLA", null, "Southwest", null, "Cowlitz", "Southwest", "112 BURMA RD                            ", "CASTLE ROCK              ", "98611-9633", "59771378", "20", "3", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=6357", null ], "46.322749", "-122.911638", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.322749", "-122.911638", null, false ], "1997-09-22T00:00:00", "NFA-Voluntary Cleanup Program Review" ]
+, [ 3261574, "61C61CC3-C193-4107-968C-5BF2A8840607", 3261574, 1537477530, "706691", 1537477530, "706691", null, "11866", "FUDS COYOTE OUTLYING FIELD", "No Further Action", "Federal  - CERCLA", null, "Headquarters", null, "Franklin", "Eastern", "T10 N R30 E WEST 1/2 OF SECTION 13", "PASCO", "99323", "12038", "9", "4", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=11866", null ], "46.350900", "-118.998790", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.3509", "-118.99879", null, false ], "2012-05-15T00:00:00", "NFA-Initial Investigation" ]
+, [ 3261575, "95AAEACF-E5DD-46A5-A70E-63BC2E2CAE21", 3261575, 1537477530, "706691", 1537477530, "706691", null, "11760", "FUDS WHEATLAND OUTLYING FIELD", "Awaiting Cleanup", "Federal  - CERCLA", null, "Headquarters", null, "Franklin", "Eastern", "T11 N R29 E SECTION  5", "PASCO", "99301", "10541", "9", "4", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=11760", null ], "46.465000", "-119.201000", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.465", "-119.201", null, false ], null, null ]
+, [ 3261597, "D20D6AB9-07E3-4B34-A095-787CDE9EA30F", 3261597, 1537477530, "706691", 1537477530, "706691", null, "1910", "Pasco Landfill NPL Site", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Eastern", "Yes", "Franklin", "Eastern", "KAHLOTUS RD & HWY 12", "PASCO", "99301", "575", "9", "4", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=1910", null ], "46.252000", "-119.054000", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.252", "-119.054", null, false ], null, null ]
+, [ 3261690, "C716F862-D75F-4D09-B135-FB4C0E2B38DF", 3261690, 1537477530, "706691", 1537477530, "706691", null, "2873", "FUDS EPHRATA ANG", "No Further Action", "Federal  - CERCLA", null, "Headquarters", null, "Grant", "Eastern", "DIVISION AVE E                          ", "EPHRATA                  ", "98823     ", "108", "13", "4", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2873", null ], "47.312531", "-119.521567", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.312531", "-119.521567", null, false ], "1998-09-25T00:00:00", "NFA-Federal Supervised/Conducted Cleanup" ]
+, [ 3261730, "0DB1DE92-4E03-4469-B4C3-E9322C859C2D", 3261730, 1537477530, "706691", 1537477530, "706691", null, "2678", "Moses Lake Wellfield", "Tracked by EPA", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Grant", "Eastern", "6956 22ND AVE NE                        ", "MOSES LAKE               ", "98837     ", "81125158", "13", "4", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2678", null ], "47.174306", "-119.319828", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.174306", "-119.319828", null, false ], null, null ]
+, [ 3261731, "6FBABDF3-6A29-479A-B93E-8575D53536A9", 3261731, 1537477530, "706691", 1537477530, "706691", null, "2302", "MOSES LK WF", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Grant", "Eastern", "GRANT CNTY AIRPORT                      ", "MOSES LAKE               ", "98837     ", "106", "13", "4", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2302", null ], "47.188424", "-119.323354", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.188424", "-119.323354", null, false ], null, null ]
+, [ 3261732, "E8ABAD9F-7F23-4A0D-9FBC-2C409D7D1940", 3261732, 1537477530, "706691", 1537477530, "706691", null, "2872", "MOSES LK WF SKYLINE", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Grant", "Eastern", "SKYLINE WATER DIST                      ", "MOSES LAKE               ", "98837     ", "107", "13", "4", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2872", null ], "47.187920", "-119.324740", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.18792", "-119.32474", null, false ], null, null ]
+, [ 3262068, "D0C81C40-71E1-4621-8640-72549B039048", 3262068, 1537477531, "706691", 1537477531, "706691", null, "2305", "FUDS FORT EBEY", "No Further Action", "Federal  - CERCLA", null, "Headquarters", null, "Island", "Northwest", "2 MI W OF COUPEVILLE                    ", "COUPEVILLE               ", "98239     ", "138", "10", "2", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2305", null ], "48.220721", "-122.763302", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.220721", "-122.763302", null, false ], "1997-04-01T00:00:00", "Cleanup Completed not on HSL" ]
+, [ 3262160, "F39DC768-702C-4011-AF65-813306B44CE0", 3262160, 1537477531, "706691", 1537477531, "706691", null, "2378", "US NAVY Air Station Whidbey Island Ault", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Island", "Northwest", "AULT FIELD BASE                         ", "OAK HARBOR               ", "98278     ", "130", "10", "2", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2378", null ], "48.333160", "-122.667950", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.33316", "-122.66795", null, false ], null, null ]
+, [ 3262162, "DC447F41-51DF-4A0A-8C91-205EC19ACD88", 3262162, 1537477531, "706691", 1537477531, "706691", null, "2503", "US NAVY WHIDBEY HWES", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Island", "Northwest", "AULT FIELD NAS WHIDBEY ISLAND           ", "OAK HARBOR               ", "98278     ", "136", "10", "2", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2503", null ], "48.333160", "-122.667950", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.33316", "-122.66795", null, false ], null, null ]
+, [ 3262164, "B2DCFDAB-A435-4953-A8D4-ED1717C95561", 3262164, 1537477531, "706691", 1537477531, "706691", null, "2285", "US NAVY WHIDBEY OU1", "Construction Complete-Performance Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Island", "Northwest", "AULT FIELD NAS WHIDBEY ISLAND           ", "OAK HARBOR               ", "98278     ", "131", "10", "2", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2285", null ], "48.333160", "-122.667950", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.33316", "-122.66795", null, false ], null, null ]
+, [ 3262165, "22FD80ED-6B57-4E1B-82F6-CA93AEB192A7", 3262165, 1537477531, "706691", 1537477531, "706691", null, "2379", "US NAVY WHIDBEY OU2", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Island", "Northwest", "AULT FIELD NAS WHIDBEY ISLAND           ", "OAK HARBOR               ", "98278     ", "132", "10", "2", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2379", null ], "48.333160", "-122.667950", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.33316", "-122.66795", null, false ], null, null ]
+, [ 3262166, "E68AB80F-CDC3-4678-90A0-1914F5BBC977", 3262166, 1537477531, "706691", 1537477531, "706691", null, "2286", "US NAVY WHIDBEY OU3", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Island", "Northwest", "AULT FIELD NAS WHIDBEY ISLAND           ", "OAK HARBOR               ", "98278     ", "133", "10", "2", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2286", null ], "48.333160", "-122.667950", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.33316", "-122.66795", null, false ], null, null ]
+, [ 3262167, "8608D338-283D-482B-B6C3-EFA9BBAC54B2", 3262167, 1537477531, "706691", 1537477531, "706691", null, "2681", "US NAVY WHIDBEY OU4", "No Further Action", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Island", "Northwest", "NAS WHIDBEY ISLAND                      ", "OAK HARBOR               ", "98278     ", "134", "10", "2", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2681", null ], "48.333160", "-122.667946", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.33316", "-122.667946", null, false ], "1995-08-22T00:00:00", "NFA-Federal Supervised/Conducted Cleanup" ]
+, [ 3262168, "4AC66F01-7735-4552-8B83-0E40AE2A4866", 3262168, 1537477531, "706691", 1537477531, "706691", null, "3037", "US NAVY WHIDBEY OU5", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Island", "Northwest", "AULT FIELD NAS WHIDBEY ISLAND           ", "OAK HARBOR               ", "98278     ", "135", "10", "2", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=3037", null ], "48.333160", "-122.667950", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.33316", "-122.66795", null, false ], null, null ]
+, [ 3262181, "4553D33B-EDD0-4E72-878D-72AAB68CDC07", 3262181, 1537477531, "706691", 1537477531, "706691", null, "11629", "Whidbey Island NAS - Lake Hancock Munitions Response Site", "Awaiting Cleanup", "MTCA/CERCLA joint authority", null, "Headquarters", null, "Island", "Northwest", null, "Greenbank", "98253", "19325", "10", "2", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=11629", null ], "48.110249", "-122.594491", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.110249", "-122.594491", null, false ], null, null ]
+, [ 3262287, "C92338FD-B152-4E6C-9E44-8854034054E0", 3262287, 1537477531, "706691", 1537477531, "706691", null, "111", "US NAVY PORT HADLOCK", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Jefferson", "Southwest", "INDIAN ISLAND                           ", "PORT HADLOCK             ", "98339-5000", "203", "24", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=111", null ], "48.032380", "-122.729420", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.03238", "-122.72942", null, false ], null, null ]
+, [ 3262288, "BF933114-6CF8-434C-A72D-00766D47675D", 3262288, 1537477531, "706691", 1537477531, "706691", null, "1930", "US NAVY PORT HADLOCK AREA 10", "Construction Complete-Performance Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Jefferson", "Southwest", "100 INDIAN ISLAND RD                    ", "PORT HADLOCK             ", "98339-9723", "77922123", "24", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=1930", null ], "48.032390", "-122.729410", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.03239", "-122.72941", null, false ], null, null ]
+, [ 3262289, "F45D0950-A95A-46E2-924D-E930AA96C3AC", 3262289, 1537477531, "706691", 1537477531, "706691", null, "733", "US NAVY PORT HADLOCK AREA 10 & 21", "Construction Complete-Performance Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Jefferson", "Southwest", "INDIAN ISLAND                           ", "PORT HADLOCK             ", "98339-5000", "206", "24", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=733", null ], "48.032360", "-122.729340", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.03236", "-122.72934", null, false ], null, null ]
+, [ 3262290, "7EC2E524-8C58-4C06-8133-1A5474C079E4", 3262290, 1537477531, "706691", 1537477531, "706691", null, "153", "US NAVY PORT HADLOCK AREA 11", "No Further Action", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Jefferson", "Southwest", "INDIAN ISLAND                           ", "PORT HADLOCK             ", "98339-5000", "204", "24", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=153", null ], "48.033150", "-122.731270", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.03315", "-122.73127", null, false ], "1996-02-20T00:00:00", "NFA-Ecology Supervised/Conducted Cleanup" ]
+, [ 3262291, "C78ABCBA-CC2A-4BF3-802E-39EE9C58EB08", 3262291, 1537477531, "706691", 1537477531, "706691", null, "732", "US NAVY PORT HADLOCK AREA 12", "Construction Complete-Performance Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Jefferson", "Southwest", "INDIAN ISLAND                           ", "PORT HADLOCK             ", "98339-5000", "205", "24", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=732", null ], "48.032390", "-122.729410", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.03239", "-122.72941", null, false ], null, null ]
+, [ 3262292, "A08BB4AB-2F34-41EF-8F08-52FBBF2F5D5F", 3262292, 1537477531, "706691", 1537477531, "706691", null, "2653", "US NAVY PORT HADLOCK AREA 21", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Jefferson", "Southwest", "100 INDIAN ISLAND RD                    ", "PORT HADLOCK             ", "98339-9723", "88622324", "24", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2653", null ], "48.032380", "-122.729420", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.03238", "-122.72942", null, false ], null, null ]
+, [ 3263641, "EB61DA48-5FF7-48B4-B456-4130A810A612", 3263641, 1537477532, "706691", 1537477532, "706691", null, "4800", "Fruehauf Trailer Inc Seattle", "Cleanup Started", "Federal  - CERCLA", null, "EPA", null, "King", "Northwest", "9426 8TH AVE S", "SEATTLE", "98108", "27446996", "33", "9", [ null, null ], "47.517834", "-122.322782", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.517834", "-122.322782", null, false ], null, null ]
+, [ 3263643, "0C963AE4-F5E2-4DE0-A2CB-1C9292F4B628", 3263643, 1537477532, "706691", 1537477532, "706691", null, "2287", "FUDS COUGAR MNT NIKE 20", "No Further Action", "Federal  - CERCLA", null, "Headquarters", null, "King", "Northwest", "166TH WAY SE                            ", "ISSAQUAH                 ", "98027     ", "150", "41", "9", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2287", null ], "47.539806", "-122.098250", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.539806", "-122.09825", null, false ], "1997-08-01T00:00:00", "Cleanup Completed not on HSL" ]
+, [ 3263645, "788C4D20-FFB7-4713-A9A7-6F37B8E8BD80", 3263645, 1537477532, "706691", 1537477532, "706691", null, "4887", "FUDS NW CENTER", "No Further Action", "Federal  - CERCLA", null, "Headquarters", null, "King", "Northwest", "1600 W ARMORY WAY                       ", "SEATTLE                  ", "98119     ", "148", "36", "7", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=4887", null ], "47.638550", "-122.379353", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.63855", "-122.379353", null, false ], "1997-02-01T00:00:00", "Cleanup Completed not on HSL" ]
+, [ 3263646, "47AD64DB-9A76-4D7A-A489-DE3D70B4CFDB", 3263646, 1537477532, "706691", 1537477532, "706691", null, "2381", "FUDS REDMOND NIKE 13 14", "No Further Action", "Federal  - CERCLA", null, "Headquarters", null, "King", "Northwest", "1 MI NE OF REDMOND                      ", "REDMOND                  ", "98052     ", "149", "48", "1", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2381", null ], "47.680836", "-122.098231", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.680836", "-122.098231", null, false ], "2000-01-01T00:00:00", "Cleanup Completed not on HSL" ]
+, [ 3263648, "DA316196-8109-4F2C-BE76-84E4FE2F622A", 3263648, 1537477532, "706691", 1537477532, "706691", null, "2380", "FUDS YOUNGS LAKE NIKE 32 33", "No Further Action", "Federal  - CERCLA", null, "Headquarters", null, "King", "Northwest", "SE OF RENTON                            ", "KENT                     ", "98055     ", "147", "11", "8", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2380", null ], "47.452580", "-122.106940", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.45258", "-122.10694", null, false ], "2000-01-10T00:00:00", "NFA-Independent Cleanup Reviewed by Ecology" ]
+, [ 3263681, "844ABB61-48FD-4198-AB8F-17B2F7C810D6", 3263681, 1537477532, "706691", 1537477532, "706691", null, "4070", "General Transport Co 13th Ave SW", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "King", "Northwest", "2937 13TH AVE SW                        ", "SEATTLE                  ", "98134     ", "2035", "34", "7", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=4070", null ], "47.577590", "-122.353247", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.57759", "-122.353247", null, false ], null, null ]
+, [ 3263795, "72C8DC4E-7B76-4A9B-ACE6-E643ACFB5070", 3263795, 1537477532, "706691", 1537477532, "706691", null, "211", "HARBOR AVE LANDFILL", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "King", "Northwest", "HARBOR AVE SW & SW FLORIDA ST           ", "SEATTLE                  ", "98126     ", "2127", "34", "7", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=211", null ], "47.581190", "-122.372570", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.58119", "-122.37257", null, false ], null, null ]
+, [ 3263796, "3D7E0125-762F-4B0A-85E7-1F9E4AF586FC", 3263796, 1537477532, "706691", 1537477532, "706691", null, "4390", "HARBOR ISLAND", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "King", "Northwest", "HARBOR ISLAND                           ", "SEATTLE                  ", "98134     ", "2021", "34", "7", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=4390", null ], "47.580390", "-122.353750", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.58039", "-122.35375", null, false ], null, null ]
+, [ 3263797, "DBC46B9C-15D9-44B2-B082-52525C2FFA66", 3263797, 1537477532, "706691", 1537477532, "706691", null, "1372", "Harbor Island East Waterway", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Northwest", null, "King", "Northwest", null, "SEATTLE", "98134", "989871", "11", "7", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=1372", null ], "47.576283", "-122.342927", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.576283", "-122.342927", null, false ], null, null ]
+, [ 3263916, "5AA1876B-E796-4861-BE2B-A9AB2C1EEBD4", 3263916, 1537477532, "706691", 1537477532, "706691", null, "4288", "INDUSTRIAL OFFICE COMPLEX", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "King", "Northwest", "3400 11TH AVE SW                        ", "SEATTLE                  ", "98134     ", "2033", "34", "7", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=4288", null ], "47.572300", "-122.349530", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.5723", "-122.34953", null, false ], null, null ]
+, [ 3264304, "A36E1F1B-04D2-4711-BACE-095F70FC3EB1", 3264304, 1537477532, "706691", 1537477532, "706691", null, "11142", "LOCKHEED SHIPBUILDING", "Cleanup Started", "Federal  - CERCLA", null, "EPA", null, "King", "Northwest", "2330 SW FLORIDA", "SEATTLE", "98106", "94284279", "34", "7", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=11142", null ], "47.582570", "-122.363650", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.58257", "-122.36365", null, false ], null, null ]
+, [ 3264327, "DFF9054B-2AE3-4C7A-BC8A-07315E9DF7C8", 3264327, 1537477532, "706691", 1537477532, "706691", null, "1643", "Lower Duwamish Waterway", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Northwest", null, "King", "Northwest", "LOWER DUWAMISH WATERWAY                 ", "SEATTLE                  ", "98108     ", "42927743", "34", "7", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=1643", null ], "47.567442", "-122.347858", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.567442", "-122.347858", null, false ], null, null ]
+, [ 3264605, "88B83712-492B-42F6-BDCD-E1346C2FDF99", 3264605, 1537477532, "706691", 1537477532, "706691", null, "4287", "NON FERROUS METALS", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "King", "Northwest", "2905 13th Ave SW / 2906 16th Ave SW", "SEATTLE", "98134-1016", "2026", "34", "7", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=4287", null ], "47.579049", "-122.353321", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.579049", "-122.353321", null, false ], null, null ]
+, [ 3264741, "4529DCC7-8788-4457-8600-EA6A889880F6", 3264741, 1537477532, "706691", 1537477532, "706691", null, "4462", "PACIFIC MOLASSES CO PM AG PRODUCTS SEA", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "King", "Northwest", "3200 11TH AVE SW                        ", "SEATTLE                  ", "98134     ", "2023", "34", "7", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=4462", null ], "47.578720", "-122.349570", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.57872", "-122.34957", null, false ], null, null ]
+, [ 3264868, "FAA8EC29-0478-47B0-BF09-0134A711C4FA", 3264868, 1537477532, "706691", 1537477532, "706691", null, "1385", "Port of Seattle Terminal 117", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", "Yes", "King", "Northwest", "8700 DALLAS AVE S                       ", "SEATTLE                  ", "98108-4855", "2202", "11", "9", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=1385", null ], "47.526506", "-122.311500", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.526506", "-122.3115", null, false ], null, null ]
+, [ 3264965, "3648AB8D-1B8B-448E-8C78-07BF419DAFBF", 3264965, 1537477532, "706691", 1537477532, "706691", null, "658", "QUEEN CITY FARMS", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "King", "Northwest", "S 1/2 SEC 28 MAPLE VALLEY QUAD          ", "MAPLE VALLEY             ", "98038     ", "245", "5", "8", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=658", null ], "47.449270", "-122.041500", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.44927", "-122.0415", null, false ], null, null ]
+, [ 3264966, "16D81A72-7854-4E3D-A9DD-304676F1032A", 3264966, 1537477532, "706691", 1537477532, "706691", null, "2877", "QUEEN CITY FARMS A", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "King", "Northwest", "22420 SE 168TH WAY                      ", "ISSAQUAH                 ", "98027     ", "140", "5", "8", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2877", null ], "47.451240", "-122.044200", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.45124", "-122.0442", null, false ], null, null ]
+, [ 3264967, "F3EAD218-9044-4B60-A5EB-206998641A37", 3264967, 1537477532, "706691", 1537477532, "706691", null, "3039", "QUEEN CITY FARMS A 4 TEK", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "King", "Northwest", "22715 SE 168TH WAY                      ", "ISSAQUAH                 ", "98027     ", "144", "5", "8", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=3039", null ], "47.451569", "-122.047811", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.451569", "-122.047811", null, false ], null, null ]
+, [ 3264968, "E162524B-1756-448F-A2A3-9C360B555C60", 3264968, 1537477532, "706691", 1537477532, "706691", null, "2504", "QUEEN CITY FARMS A BURIED DRUM", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "King", "Northwest", "22420 SE 168TH WAY                      ", "ISSAQUAH                 ", "98027     ", "143", "5", "8", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2504", null ], "47.451569", "-122.047811", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.451569", "-122.047811", null, false ], null, null ]
+, [ 3264969, "383A49CD-D0E6-4FB9-8146-EAE528EDDB82", 3264969, 1537477532, "706691", 1537477532, "706691", null, "2307", "QUEEN CITY FARMS A IRM", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "King", "Northwest", "N 1/2 SEC 28 MAPLE VALLEY QD            ", "ISSAQUAH                 ", "98038     ", "142", "5", "8", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2307", null ], "47.449270", "-122.041500", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.44927", "-122.0415", null, false ], null, null ]
+, [ 3264970, "8CA1D226-E451-43AD-A44D-FE89D54BA8C1", 3264970, 1537477532, "706691", 1537477532, "706691", null, "2306", "QUEEN CITY FARMS B", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "King", "Northwest", "N 1/2 SEC 28 MAPLE VALLY QD             ", "ISSAQUAH                 ", "98038     ", "141", "5", "8", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2306", null ], "47.449270", "-122.041500", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.44927", "-122.0415", null, false ], null, null ]
+, [ 3265265, "C7668605-3BF2-4DDC-9471-BDFE0138A1F0", 3265265, 1537477532, "706691", 1537477532, "706691", null, "4392", "Seafab Metal Surface Impoundment", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "King", "Northwest", "2700 16TH AVE SW                        ", "SEATTLE                  ", "98134     ", "2038", "34", "7", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=4392", null ], "47.579470", "-122.354820", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.57947", "-122.35482", null, false ], null, null ]
+, [ 3265266, "F3868D9E-48C1-41E5-B3E6-E590913DC339", 3265266, 1537477532, "706691", 1537477532, "706691", null, "4071", "Seafab Metals Co", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "King", "Northwest", "2700 16TH AVE SW                        ", "SEATTLE                  ", "98134     ", "2037", "34", "7", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=4071", null ], "47.579470", "-122.354820", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.57947", "-122.35482", null, false ], null, null ]
+, [ 3265353, "E784E668-9F15-4304-98A9-29ACA224709D", 3265353, 1537477532, "706691", 1537477532, "706691", null, "5050", "Seattle Iron & Metals Main Yard", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "King", "Northwest", "2955 11TH AVE SW                        ", "SEATTLE                  ", "98134     ", "2027", "34", "7", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=5050", null ], "47.580510", "-122.350927", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.58051", "-122.350927", null, false ], null, null ]
+, [ 3265373, "F9844319-5DDD-4DD9-93D9-415C012BF1F6", 3265373, 1537477532, "706691", 1537477532, "706691", null, "4463", "Seattle Port Leckenby Co", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "King", "Northwest", "11TH AVE SW TERMINAL 18D                ", "SEATTLE                  ", "98134     ", "2025", "34", "7", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=4463", null ], "47.576860", "-122.350138", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.57686", "-122.350138", null, false ], null, null ]
+, [ 3265385, "4E9C3825-0A97-4A63-924A-14EE0A89C747", 3265385, 1537477532, "706691", 1537477532, "706691", null, "4729", "Seattle Public Utilities Midway Landfill", "Cleanup Complete-Active O&M/Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Northwest", null, "King", "Northwest", "24808 PACIFIC HWY S                     ", "KENT                     ", "98032     ", "2043", "33", "9", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=4729", null ], "47.379510", "-122.298010", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.37951", "-122.29801", null, false ], null, null ]
+, [ 3265747, "7A4D52C4-77DE-4773-86A6-809DE47B0BB3", 3265747, 1537477533, "706691", 1537477533, "706691", null, "3158", "SW Harbor Project Wyckoff", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Northwest", null, "King", "Northwest", "W MARGINAL WAY SW & FLORIDA ST SW", "SEATTLE", "98134", "2387", "34", "7", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=3158", null ], "47.582430", "-122.369361", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.58243", "-122.369361", null, false ], null, null ]
+, [ 3266134, "6A2ADB2D-65AE-4748-B402-C7A1AE6B8265", 3266134, 1537477533, "706691", 1537477533, "706691", null, "4464", "Value Plating & Metal Pol", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "King", "Northwest", "3207 11TH AVE SW", "SEATTLE", "98134", "2032", "34", "7", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=4464", null ], "47.578658", "-122.349607", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.578658", "-122.349607", null, false ], null, null ]
+, [ 3266311, "EB506F7C-B42F-4049-B2A6-BA087F8B960A", 3266311, 1537477533, "706691", 1537477533, "706691", null, "2682", "Western Processing", "Tracked by EPA", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "King", "Northwest", "7215 S 196TH ST", "KENT", "98032", "145", "33", "9", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2682", null ], "47.426660", "-122.243990", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.42666", "-122.24399", null, false ], null, null ]
+, [ 3266325, "2B5DECCE-4215-422E-859E-D6BEBCD5389B", 3266325, 1537477533, "706691", 1537477533, "706691", null, "4727", "Weyerhaeuser Lab", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "King", "Northwest", "3233 11TH AVE SW", "SEATTLE", "98134", "2039", "34", "7", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=4727", null ], "47.573585", "-122.349761", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.573585", "-122.349761", null, false ], null, null ]
+, [ 3266362, "7628596A-A344-449C-B940-15E3C6900336", 3266362, 1537477533, "706691", 1537477533, "706691", null, "3040", "Wycoff Co West Seattle", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "King", "Northwest", "2801 SW FLORIDA ST                      ", "SEATTLE                  ", "98126     ", "146", "34", "7", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=3040", null ], "47.581640", "-122.370518", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.58164", "-122.370518", null, false ], null, null ]
+, [ 3266510, "89391CC2-5C1F-4E10-8A2B-D5ACD80AC771", 3266510, 1537477533, "706691", 1537477533, "706691", null, "2278", "EAGLE HARBOR", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Kitsap", "Northwest", "CREOSOTE PL NE                          ", "BAINBRIDGE ISLAND        ", "98110     ", "151", "23", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2278", null ], "47.615360", "-122.499870", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.61536", "-122.49987", null, false ], null, null ]
+, [ 3266511, "9B8AE404-9D70-4688-A03B-693A199D6715", 3266511, 1537477533, "706691", 1537477533, "706691", null, "2403", "EAGLE HARBOR E", "Construction Complete-Performance Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Kitsap", "Northwest", "CREOSOTE PL NE                          ", "BAINBRIDGE ISLAND        ", "98110     ", "153", "23", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2403", null ], "47.615350", "-122.499860", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.61535", "-122.49986", null, false ], null, null ]
+, [ 3266512, "830D548A-3993-4D17-9D0C-05AC88E4CE8E", 3266512, 1537477533, "706691", 1537477533, "706691", null, "2505", "EAGLE HARBOR W", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Kitsap", "Northwest", "CREOSOTE PL NE                          ", "BAINBRIDGE ISLAND        ", "98110     ", "154", "23", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2505", null ], "47.615350", "-122.499860", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.61535", "-122.49986", null, false ], null, null ]
+, [ 3266513, "68F97B40-6165-4F98-AE09-6EB3BDC7F4B9", 3266513, 1537477533, "706691", 1537477533, "706691", null, "2683", "EAGLE HARBOR WYCKOFF", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Kitsap", "Northwest", "CREOSOTE PL NE", "BAINBRIDGE ISLAND", "98110", "152", "23", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2683", null ], "47.615377", "-122.499870", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.615377", "-122.49987", null, false ], null, null ]
+, [ 3266535, "23881AE0-0CC9-4819-B2BE-0427631A6D97", 3266535, 1537477533, "706691", 1537477533, "706691", null, "617", "FUDS FORT WARD", "Cleanup Started", "Federal  - CERCLA", null, "Headquarters", null, "Kitsap", "Northwest", "BAINBRIDGE ISLAND", "BAINBRIDGE ISLAND", "98110", "185", "23", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=617", null ], "47.583569", "-122.522585", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.583569", "-122.522585", null, false ], null, null ]
+, [ 3266537, "19E45936-A40F-429D-AE56-BBF96C139DAC", 3266537, 1537477533, "706691", 1537477533, "706691", null, "151", "FUDS KINGSTON NIKE 92", "No Further Action", "Federal  - CERCLA", null, "Headquarters", null, "Kitsap", "Northwest", "GAMBLE RD                               ", "KINGSTON                 ", "98346     ", "186", "23", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=151", null ], "47.794975", "-122.516348", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.794975", "-122.516348", null, false ], "1997-02-01T00:00:00", "NFA-SHA IRAP or VCP" ]
+, [ 3266539, "85D089AB-0B07-4706-81FD-4D9535D756ED", 3266539, 1537477533, "706691", 1537477533, "706691", null, "649", "FUDS NAVAL RTS BATTLE POINT", "No Further Action", "Federal  - CERCLA", null, "Headquarters", null, "Kitsap", "Northwest", "BAINBRIDGE ISLAND", "BAINBRIDGE ISLAND", "98110", "184", "23", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=649", null ], "47.662501", "-122.662468", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.662501", "-122.662468", null, false ], "1999-07-01T00:00:00", "Cleanup Completed not on HSL" ]
+, [ 3266546, "A9D4707F-1CCE-441C-8411-C3687AF41214", 3266546, 1537477533, "706691", 1537477533, "706691", null, "900", "Gorst Creek Landfill", "Cleanup Started", "MTCA/CERCLA joint authority", "1 - Highest Assessed Risk", "EPA", null, "Kitsap", "Northwest", "4275 SR 3 SW", "PORT ORCHARD", "98367", "62752314", "35", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=900", null ], "47.515353", "-122.736216", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.515353", "-122.736216", null, false ], null, null ]
+, [ 3266672, "56A3C0C0-8E51-4704-BEA7-E52522509974", 3266672, 1537477533, "706691", 1537477533, "706691", null, "286", "Old Bremerton Gasworks Sesko", "Cleanup Started", "Federal  - CERCLA", "1 - Highest Assessed Risk", "EPA", null, "Kitsap", "Northwest", "1725 PENNSYLVANIA AVE", "BREMERTON", "98337", "2641", "35", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=286", null ], "47.577336", "-122.642780", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.577336", "-122.64278", null, false ], null, null ]
+, [ 3266790, "BFF5757A-930C-4939-99E3-B7CD5EC58B57", 3266790, 1537477533, "706691", 1537477533, "706691", null, "107", "US NAVY FISC MANCHESTER INDUSTRIAL", "No Further Action", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Kitsap", "Northwest", "ORCHARD PT                              ", "MANCHESTER               ", "98353     ", "171", "26", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=107", null ], "47.563150", "-122.538740", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.56315", "-122.53874", null, false ], "2001-01-17T00:00:00", "NFA-Site Hazard Assessment" ]
+, [ 3266791, "4ABAF4B6-C9EA-4C61-BF12-C2E8548C8FA2", 3266791, 1537477533, "706691", 1537477533, "706691", null, "523", "US NAVY FISC MANCHESTER PCB", "No Further Action", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Kitsap", "Northwest", "ORCHARD PT                              ", "MANCHESTER               ", "98353     ", "170", "26", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=523", null ], "47.563150", "-122.553470", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.56315", "-122.55347", null, false ], "2000-10-01T00:00:00", "NFA-Ecology Supervised/Conducted Cleanup" ]
+, [ 3266798, "B497DEE5-1A0B-43D4-8CA6-BAF6F7A89F94", 3266798, 1537477533, "706691", 1537477533, "706691", null, "127", "US NAVY KEYPORT", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Kitsap", "Northwest", "HWY 308                                 ", "KEYPORT                  ", "98345-0580", "157", "23", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=127", null ], "47.704690", "-122.626810", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.70469", "-122.62681", null, false ], null, null ]
+, [ 3266799, "DBDD7471-A293-425E-9667-5D5C50A22173", 3266799, 1537477533, "706691", 1537477533, "706691", null, "128", "US NAVY KEYPORT OU1", "Construction Complete-Performance Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Kitsap", "Northwest", "610 DOWELL ST                           ", "KEYPORT                  ", "98345-7610", "158", "23", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=128", null ], "47.698650", "-122.627005", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.69865", "-122.627005", null, false ], null, null ]
+, [ 3266800, "60F45677-B24F-47FC-AF04-127DDF2D6B82", 3266800, 1537477533, "706691", 1537477533, "706691", null, "522", "US NAVY KEYPORT OU2", "Construction Complete-Performance Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Kitsap", "Northwest", "610 DOWELL ST                           ", "KEYPORT                  ", "98345-0580", "159", "23", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=522", null ], "47.694260", "-122.626810", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.69426", "-122.62681", null, false ], null, null ]
+, [ 3266808, "E98BD8E6-0160-4C2F-8956-7974D4578B1C", 3266808, 1537477533, "706691", 1537477533, "706691", null, "615", "US NAVY SUBASE", "Cleanup Complete-Active O&M/Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Kitsap", "Northwest", "US HWY 99                               ", "SILVERDALE               ", "98315     ", "160", "35", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=615", null ], "47.666480", "-122.751260", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.66648", "-122.75126", null, false ], null, null ]
+, [ 3266809, "2D2E09BC-80D9-4BEF-8144-CD28FA79C046", 3266809, 1537477533, "706691", 1537477533, "706691", null, "148", "US NAVY SUBASE OU1 ORD DISP", "Construction Complete-Performance Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Kitsap", "Northwest", "CLEAR CREEK RD BLDG 1100", "SILVERDALE", "98315", "161", "23", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=148", null ], "47.763090", "-122.702238", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.76309", "-122.702238", null, false ], null, null ]
+, [ 3266810, "CE829B0D-8366-4E77-AA1F-308F6C6DCE84", 3266810, 1537477533, "706691", 1537477533, "706691", null, "616", "US NAVY SUBASE OU2", "Construction Complete-Performance Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Kitsap", "Northwest", "CLEAR CREEK RD BLDG 110", "SILVERDALE", "98315", "162", "23", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=616", null ], "47.729988", "-122.742019", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.729988", "-122.742019", null, false ], null, null ]
+, [ 3266811, "F1BF4A0F-0AC0-48F0-B213-BF8AB2BE7EC0", 3266811, 1537477533, "706691", 1537477533, "706691", null, "531", "US NAVY SUBASE OU3", "Cleanup Complete-Active O&M/Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Kitsap", "Northwest", "CLEAR CREEK RD BLDG 110                 ", "SILVERDALE               ", "98315     ", "163", "35", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=531", null ], "47.666480", "-122.751260", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.66648", "-122.75126", null, false ], null, null ]
+, [ 3266812, "569220C4-2107-494A-A930-D5E1B91B231D", 3266812, 1537477533, "706691", 1537477533, "706691", null, "582", "US NAVY SUBASE OU4", "No Further Action", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Kitsap", "Northwest", "CLEAR CREEK RD BLDG 110", "SILVERDALE", "98315", "164", "23", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=582", null ], "47.753364", "-122.709611", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.753364", "-122.709611", null, false ], "1995-08-22T00:00:00", "NFA-Ecology Supervised/Conducted Cleanup" ]
+, [ 3266813, "3C25278A-05B5-4070-8B9B-0A92AEF71B43", 3266813, 1537477533, "706691", 1537477533, "706691", null, "532", "US NAVY SUBASE OU5", "No Further Action", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Kitsap", "Northwest", "CLEAR CREEK RD BLDG 110", "SILVERDALE", "98315", "165", "23", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=532", null ], "47.697020", "-122.716370", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.69702", "-122.71637", null, false ], "1994-03-08T00:00:00", "NFA-Ecology Supervised/Conducted Cleanup" ]
+, [ 3266814, "472F2C34-9490-4E0F-B6CD-660F3613C59E", 3266814, 1537477533, "706691", 1537477533, "706691", null, "583", "US NAVY SUBASE OU6", "No Further Action", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Kitsap", "Northwest", "CLEAR CREEK RD BLDG 110", "SILVERDALE", "98315", "166", "23", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=583", null ], "47.703315", "-122.729270", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.703315", "-122.72927", null, false ], "1998-11-10T00:00:00", "NFA-Ecology Supervised/Conducted Cleanup" ]
+, [ 3266815, "D7B26E73-C64B-4016-AB00-0C2F53EEC3D4", 3266815, 1537477533, "706691", 1537477533, "706691", null, "533", "US NAVY SUBASE OU7", "Construction Complete-Performance Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Kitsap", "Northwest", "CLEAR CREEK RD BLDG 110                 ", "SILVERDALE               ", "98315     ", "167", "35", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=533", null ], "47.666480", "-122.751260", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.66648", "-122.75126", null, false ], null, null ]
+, [ 3266816, "5D0A9DA3-D07A-4A3B-9296-907D2663A355", 3266816, 1537477533, "706691", 1537477533, "706691", null, "149", "US NAVY SUBASE OU8", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Kitsap", "Northwest", "CLEAR CREEK RD BLDG 110                 ", "SILVERDALE               ", "98315     ", "168", "23", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=149", null ], "47.699820", "-122.701260", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.69982", "-122.70126", null, false ], null, null ]
+, [ 3266831, "E4EEF0CA-7077-44B5-ADE0-515A4DD13472", 3266831, 1537477533, "706691", 1537477533, "706691", null, "585", "WA ECY Manchester Lab", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Kitsap", "Northwest", "7411 BEACH DR E ECY LAB", "PORT ORCHARD", "98366", "183", "26", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=585", null ], "47.571031", "-122.552459", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.571031", "-122.552459", null, false ], null, null ]
+, [ 3267103, "1FEAB0EE-23C5-4E6C-9333-82562930D371", 3267103, 1537477533, "706691", 1537477533, "706691", null, "134", "AMERICAN CROSSARM & CONDUIT", "Cleanup Complete-Active O&M/Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Southwest", null, "Lewis", "Southwest", "100 CHEHALIS AVE SW                     ", "CHEHALIS                 ", "98532     ", "208", "20", "3", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=134", null ], "46.657670", "-122.969260", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.65767", "-122.96926", null, false ], null, null ]
+, [ 3267187, "663F1E53-8B02-4987-B7DE-EB48866EC1D4", 3267187, 1537477534, "706691", 1537477534, "706691", null, "2001", "HAMILTON LABREE RD PCE", "Tracked by EPA", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Lewis", "Southwest", "169 LABREE RD                           ", "CHEHALIS                 ", "98532-8804", "17473", "20", "3", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2001", null ], "46.623620", "-122.934330", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.62362", "-122.93433", null, false ], null, null ]
+, [ 3267289, "BB4CE37D-A12E-4BCB-BF82-B7851CC1E661", 3267289, 1537477534, "706691", 1537477534, "706691", null, "2409", "ROSS ELECTRIC OF WA COAL CREEK", "Tracked by EPA", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", "Yes", "Lewis", "Southwest", "346 COAL CREEK RD                       ", "CHEHALIS                 ", "98532     ", "1157", "20", "3", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2409", null ], "46.670220", "-122.958520", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.67022", "-122.95852", null, false ], null, null ]
+, [ 3267336, "9D95A333-EFA9-4430-878C-9CC1818125EB", 3267336, 1537477534, "706691", 1537477534, "706691", null, "2688", "WASHINGTON JUNK CO", "No Further Action", "Federal  - CERCLA", null, "Southwest", null, "Lewis", "Southwest", "78 CHEHALIS AVE                         ", "CHEHALIS                 ", "98532     ", "1170", "20", "3", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2688", null ], "46.659100", "-122.969680", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.6591", "-122.96968", null, false ], "2000-09-29T00:00:00", "NFA-Site Hazard Assessment" ]
+, [ 3267487, "391AB27D-DFD6-4AF4-A41A-9B61FFEAB627", 3267487, 1537477534, "706691", 1537477534, "706691", null, "12954", "Shelton Municipal Airport", "Construction Complete-Performance Monitoring", "MTCA/CERCLA joint authority", null, "Headquarters", null, "Mason", "Southwest", "410 W BUSINESS PARK RD", "SHELTON", "98584", "3018", "35", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=12954", null ], "47.250260", "-123.151050", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.25026", "-123.15105", null, false ], null, null ]
+, [ 3267622, "0FA30DB6-705F-4129-B108-D4D1BE52B2D8", 3267622, 1537477534, "706691", 1537477534, "706691", null, "3033", "Silver Mountain Mine", "Cleanup Complete-Active O&M/Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Central", "Yes", "Okanogan", "Central", "COUNTY RD 4371                          ", "LOOMIS                   ", "98827     ", "101", "7", "4", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=3033", null ], "48.744870", "-119.558120", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.74487", "-119.55812", null, false ], null, null ]
+, [ 3267665, "7AD97ED0-A20C-441D-B598-66F1B050113E", 3267665, 1537477534, "706691", 1537477534, "706691", null, "131", "FUDS FORT CANBY", "No Further Action", "Federal  - CERCLA", null, "Headquarters", null, "Pacific", "Southwest", "1 MI SW OF ILWACO                       ", "ILWACO                   ", "98624     ", "189", "19", "3", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=131", null ], "46.278680", "-124.053030", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.27868", "-124.05303", null, false ], "2000-10-01T00:00:00", "Cleanup Completed not on HSL" ]
+, [ 3267667, "91893145-5212-44B6-B0C1-0E55118D668E", 3267667, 1537477534, "706691", 1537477534, "706691", null, "652", "FUDS NASELLE AFS", "No Further Action", "Federal  - CERCLA", null, "Headquarters", null, "Pacific", "Southwest", "                                        ", "NASELLE                  ", "98368     ", "209", "19", "3", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=652", null ], "46.422749", "-123.798566", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.422749", "-123.798566", null, false ], "2000-10-01T00:00:00", "Cleanup Completed not on HSL" ]
+, [ 3267745, "8D5E4E92-ECC1-47EC-8292-494072D95B96", 3267745, 1537477534, "706691", 1537477534, "706691", null, "927", "Grandview Mine", "Cleanup Complete-Active O&M/Monitoring", "MTCA/CERCLA joint authority", null, "Eastern", null, "Pend Oreille", "Eastern", "Grandview Flat Rd", "Metaline Falls", "99153", "631973", "7", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=927", null ], "48.872710", "-117.358350", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.87271", "-117.35835", null, false ], null, null ]
+, [ 3267765, "E86E6998-240F-4AE3-91A1-E500A144ABBD", 3267765, 1537477534, "706691", 1537477534, "706691", null, "3424", "Oriole Mine", "Awaiting Cleanup", "MTCA/CERCLA joint authority", null, "Eastern", null, "Pend Oreille", "Eastern", null, "Metaline Falls", "99153", "4047180", "7", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=3424", null ], "48.860111", "-117.413973", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.860111", "-117.413973", null, false ], null, null ]
+, [ 3267884, "49BB5A41-E151-43F4-B793-37994A2C048E", 3267884, 1537477534, "706691", 1537477534, "706691", null, "537", "ASARCO DEMOLITION", "No Further Action", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Pierce", "Southwest", "52ND ST & BALTIMORE ST                  ", "TACOMA                   ", "98407     ", "214", "27", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=537", null ], "47.298780", "-122.508280", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.29878", "-122.50828", null, false ], "1997-08-19T00:00:00", "NFA-Ecology Supervised/Conducted Cleanup" ]
+, [ 3267885, "8B9D8E5B-5761-411C-B168-3CAEEB4D3597", 3267885, 1537477534, "706691", 1537477534, "706691", null, "538", "ASARCO OFFSHORE", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Southwest", null, "Pierce", "Southwest", "52ND ST & BALTIMORE ST                  ", "TACOMA                   ", "98407     ", "216", "27", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=538", null ], "47.299819", "-122.508130", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.299819", "-122.50813", null, false ], null, null ]
+, [ 3267886, "73F465CF-DE4F-45DA-BD0D-D6B24F7C4067", 3267886, 1537477534, "706691", 1537477534, "706691", null, "712", "ASARCO SMELTER", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Southwest", null, "Pierce", "Southwest", "52ND ST & BALTIMORE ST                  ", "TACOMA                   ", "98407     ", "215", "27", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=712", null ], "47.299819", "-122.508130", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.299819", "-122.50813", null, false ], null, null ]
+, [ 3268067, "32B45D2E-1599-4AF7-A20D-C2FE68725EED", 3268067, 1537477534, "706691", 1537477534, "706691", null, "117", "COMM BAY S TACOMA CHANNEL", "Cleanup Started", "Federal  - CERCLA", null, "EPA", null, "Pierce", "Southwest", "S TACOMA CHANNEL                        ", "TACOMA                   ", "98402     ", "246", "25", "10", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=117", null ], "47.189820", "-122.387070", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.18982", "-122.38707", null, false ], null, null ]
+, [ 3268069, "B561B917-D631-46F1-97D8-04F249DAE9ED", 3268069, 1537477534, "706691", 1537477534, "706691", null, "3032", "COMMENCEMENT BAY NEARSHORE TIDEFLATS", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", "Yes", "Pierce", "Southwest", "COMMENCEMENT BAY", "TACOMA", "98402", "42", "27", "9", [ null, null ], "47.278626", "-122.414938", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.278626", "-122.414938", null, false ], null, null ]
+, [ 3268171, "1B91A29F-62FA-41D2-A1EC-43E00DC28BE7", 3268171, 1537477534, "706691", 1537477534, "706691", null, "5931", "FIFE METROPLEX CARDLOCK", "No Further Action", "Federal  - CERCLA", null, "Southwest", null, "Pierce", "Southwest", "3200 20TH ST E                          ", "FIFE                     ", "98424     ", "35377551", "25", "10", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=5931", null ], "47.238806", "-122.386444", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.238806", "-122.386444", null, false ], "2008-03-11T00:00:00", "NFA-Voluntary Cleanup Program Review" ]
+, [ 3268201, "EE3D37AF-513C-4263-A076-B5194FD8B27B", 3268201, 1537477534, "706691", 1537477534, "706691", null, "11445", "FORT LEWIS BLDG 6990 aka TACOMA POWER FT LEWIS CENTRAL SUBSTATION", "Cleanup Started", "Federal  - CERCLA", null, "EPA", null, "Pierce", "Southwest", "ROBIN COURT", "FT LEWIS", "98433", "18592", "28", "10", [ null, null ], "47.106596", "-122.560233", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.106596", "-122.560233", null, false ], null, null ]
+, [ 3268227, "042E2B8F-397A-4951-82BA-7FE0132F30FA", 3268227, 1537477534, "706691", 1537477534, "706691", null, "618", "FUDS POULSBO NIKE 81", "No Further Action", "Federal  - CERCLA", null, "Headquarters", null, "Pierce", "Southwest", "                                        ", "POULSBO                  ", "98370     ", "187", "28", "10", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=618", null ], "47.246666", "-122.674999", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.246666", "-122.674999", null, false ], "2000-05-09T00:00:00", "Cleanup Completed not on HSL" ]
+, [ 3268249, "87A91B70-1534-4DD5-B67B-781AB6750ED3", 3268249, 1537477534, "706691", 1537477534, "706691", null, "4330", "Glenn Springs Holdings Inc", "Cleanup Started", "MTCA/CERCLA joint authority", "0 - NPL Site (Fed HRS Score)", "Southwest", "Yes", "Pierce", "Southwest", "709 ALEXANDER AVE                       ", "TACOMA                   ", "98421-4219", "1246", "27", "9", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=4330", null ], "47.276800", "-122.403730", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.2768", "-122.40373", null, false ], null, null ]
+, [ 3268290, "B40BCD90-3636-439E-9B49-B0CFB513D4B6", 3268290, 1537477534, "706691", 1537477534, "706691", null, "3649", "HIDDEN VALLEY LANDFILL THUN FLD", "Cleanup Complete-Active O&M/Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Southwest", "Yes", "Pierce", "Southwest", "17925 MERIDIAN S                        ", "PUYALLUP                 ", "98373-9603", "1272", "2", "10", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=3649", null ], "47.096240", "-122.293630", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.09624", "-122.29363", null, false ], null, null ]
+, [ 3268344, "9E7D8BFA-8BBC-4704-A69A-34959B3AE8C2", 3268344, 1537477534, "706691", 1537477534, "706691", null, "13021", "JBLM Building A1033 AOC9-2", "Awaiting Cleanup", "MTCA/CERCLA joint authority", null, "Headquarters", null, "Pierce", "Southwest", "17th Street and A St", "JBLM", "98438", "8462", "28", "10", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=13021", null ], "47.125865", "-122.599437", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.125865", "-122.599437", null, false ], null, null ]
+, [ 3268408, "AF9B91B4-5BA7-4AFF-8EB0-8AB7B0BF68DB", 3268408, 1537477534, "706691", 1537477534, "706691", null, "735", "LAKEWOOD PONDERS CORNER", "Cleanup Complete-Active O&M/Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Southwest", null, "Pierce", "Southwest", "15 & NEW YORK AVE", "LAKEWOOD", "98438", "224", "29", "10", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=735", null ], "47.141122", "-122.514401", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.141122", "-122.514401", null, false ], null, null ]
+, [ 3268633, "A4CC4094-F31D-43BE-B65E-1E5748AD2AB5", 3268633, 1537477534, "706691", 1537477534, "706691", null, "3363", "PIER 24-25", "Tracked by EPA", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Pierce", "Southwest", "401 ALEXANDER AVE SHORELINE SEDIMENTS   ", "TACOMA                   ", "98421     ", "8632033", "27", "9", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=3363", null ], "47.282645", "-122.407666", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.282645", "-122.407666", null, false ], null, null ]
+, [ 3268634, "372390A3-B482-47DC-9389-655E1F624BAD", 3268634, 1537477534, "706691", 1537477534, "706691", null, "12597", "Pier 4 Port of Tacoma", "Tracked by EPA", "Federal  - CERCLA", null, "EPA", null, "Pierce", "Southwest", "Pier 4 Port of Tacoma Rd", "Tacoma", "98421", "6505", "27", "9", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=12597", null ], "47.273410", "-122.407800", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.27341", "-122.4078", null, false ], null, null ]
+, [ 3268720, "3DF43F00-4ED2-49A7-9F3B-F11838F7B046", 3268720, 1537477534, "706691", 1537477534, "706691", null, "3764", "PUYALLUP LAND SETTLEMENT A", "No Further Action", "Federal  - CERCLA", null, "Southwest", null, "Pierce", "Southwest", "E WEST RD                               ", "TACOMA                   ", "98421     ", "1253", "27", "9", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=3764", null ], "47.257190", "-122.360030", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.25719", "-122.36003", null, false ], "1996-01-16T00:00:00", "NFA-SHA IRAP or VCP" ]
+, [ 3268721, "7928050A-C1B7-4F40-9F42-3A20D1A68460", 3268721, 1537477534, "706691", 1537477534, "706691", null, "3647", "PUYALLUP LAND SETTLEMENT B", "No Further Action", "Federal  - CERCLA", null, "Southwest", null, "Pierce", "Southwest", "TAYLOR WAY NEAR E WEST RD               ", "TACOMA                   ", "98421     ", "1254", "27", "9", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=3647", null ], "47.257490", "-122.359520", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.25749", "-122.35952", null, false ], "1996-01-16T00:00:00", "NFA-Federal Supervised/Conducted Cleanup" ]
+, [ 3268722, "69788675-1128-4575-9C0F-2C397967E371", 3268722, 1537477534, "706691", 1537477534, "706691", null, "3909", "PUYALLUP LAND SETTLEMENT C", "No Further Action", "Federal  - CERCLA", null, "Southwest", null, "Pierce", "Southwest", "MARINE VIEW DR", "TACOMA", "98421", "1255", "27", "9", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=3909", null ], "47.293203", "-122.412394", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.293203", "-122.412394", null, false ], "1996-12-05T00:00:00", "NFA-SHA IRAP or VCP" ]
+, [ 3268724, "7BC3A5E7-98EF-4EBE-8BBA-E16F196C3E58", 3268724, 1537477534, "706691", 1537477534, "706691", null, "113", "PUYALLUP LAND SETTLEMENT E", "Cleanup Started", "Federal  - CERCLA", null, "EPA", null, "Pierce", "Southwest", "250-368 Alexander Ave E", "TACOMA", "98421", "212", "27", "9", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=113", null ], "47.264626", "-122.386983", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.264626", "-122.386983", null, false ], null, null ]
+, [ 3268725, "3E7895E1-3995-42B7-8A56-B2A15C524BFE", 3268725, 1537477534, "706691", 1537477534, "706691", null, "653", "PUYALLUP LAND SETTLEMENT F", "Cleanup Started", "Federal  - CERCLA", null, "EPA", null, "Pierce", "Southwest", "3100 Taylor Way", "TACOMA", "98421", "213", "27", "9", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=653", null ], "47.264661", "-122.378649", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.264661", "-122.378649", null, false ], null, null ]
+, [ 3268780, "51958095-A6BC-4766-8844-20C26F5DDB10", 3268780, 1537477534, "706691", 1537477534, "706691", null, "621", "RUSTON N TACOMA", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Southwest", null, "Pierce", "Southwest", "52ND ST & BALTIMORE ST                  ", "TACOMA                   ", "98407     ", "219", "27", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=621", null ], "47.299010", "-122.508800", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.29901", "-122.5088", null, false ], null, null ]
+, [ 3268786, "A62C24B9-5C91-4C0B-BF31-76A5A98A8B82", 3268786, 1537477535, "706691", 1537477535, "706691", null, "734", "S TACOMA FIELD", "Cleanup Complete-Active O&M/Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", "Yes", "Pierce", "Southwest", "S 56TH & MADISON                        ", "TACOMA                   ", "98421     ", "223", "29", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=734", null ], "47.206380", "-122.490550", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.20638", "-122.49055", null, false ], null, null ]
+, [ 3268830, "F616FB41-B934-4C9F-9107-5BB0C88E0F73", 3268830, 1537477535, "706691", 1537477535, "706691", null, "3553", "SIMON & SONS TARPITS", "Awaiting Cleanup", "Federal  - CERCLA", null, "EPA", null, "Pierce", "Southwest", "2200 E RIVER ST                         ", "TACOMA                   ", "98421-1502", "1252", "27", "9", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=3553", null ], "47.246420", "-122.415360", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.24642", "-122.41536", null, false ], null, null ]
+, [ 3268989, "B39EB656-6EA5-4E28-BD35-A21908F0ED24", 3268989, 1537477535, "706691", 1537477535, "706691", null, "622", "TACOMA TAR PITS", "Construction Complete-Performance Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Pierce", "Southwest", "PORTLAND AVE & RIVER", "TACOMA", "98401", "221", "27", "9", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=622", null ], "47.245667", "-122.419290", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.245667", "-122.41929", null, false ], null, null ]
+, [ 3269093, "2F78E365-B5BB-4414-9020-451A27607DDA", 3269093, 1537477535, "706691", 1537477535, "706691", null, "4598", "TRI M CONSTRUCTION", "No Further Action", "Federal  - CERCLA", null, "Southwest", null, "Pierce", "Southwest", "MERIDIAN & DECHAUX RD                   ", "PUYALLUP                 ", "98371     ", "1311", "31", "10", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=4598", null ], "47.212520", "-122.294030", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.21252", "-122.29403", null, false ], "1995-12-28T00:00:00", "NFA-Site Hazard Assessment" ]
+, [ 3269146, "4E5F5791-9809-42BE-B3CD-BF18D34B2B9F", 3269146, 1537477535, "706691", 1537477535, "706691", null, "624", "US ARMY FORT LEWIS LDFL 4 SRCPP", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Pierce", "Southwest", "FT LEWIS                                ", "TACOMA                   ", "98400     ", "228", "28", "10", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=624", null ], "47.111580", "-122.605970", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.11158", "-122.60597", null, false ], null, null ]
+, [ 3269147, "67C5F183-95B4-4239-8B6F-CE218D092E94", 3269147, 1537477535, "706691", 1537477535, "706691", null, "623", "US ARMY FORT LEWIS LDFL 5", "Tracked by EPA", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Pierce", "Southwest", "FORT LEWIS                              ", "TACOMA                   ", "98433-5000", "226", "28", "10", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=623", null ], "47.108150", "-122.603180", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.10815", "-122.60318", null, false ], null, null ]
+, [ 3269148, "FDFF8C4E-4B8C-4808-86F3-9C953C65C9A0", 3269148, 1537477535, "706691", 1537477535, "706691", null, "655", "US ARMY FORT LEWIS LOG CENTER", "Tracked by EPA", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Pierce", "Southwest", "T19N R2E 21 22 26 27                    ", "TACOMA                   ", "98433-5000", "227", "28", "10", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=655", null ], "47.088150", "-122.582900", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.08815", "-122.5829", null, false ], null, null ]
+, [ 3269149, "31EB464A-041B-4987-AD7E-0A6F8D6EA96F", 3269149, 1537477535, "706691", 1537477535, "706691", null, "156", "US ARMY FORT LEWIS MULTI SITE", "No Further Action", "Federal  - CERCLA", null, "EPA", null, "Pierce", "Southwest", "FORT LEWIS                              ", "TACOMA                   ", "98433-5000", "229", "28", "10", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=156", null ], "47.119400", "-122.557920", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.1194", "-122.55792", null, false ], "1994-05-09T00:00:00", "NFA-SHA IRAP or VCP" ]
+, [ 3269150, "AD39D09F-6308-4E0F-8D86-84F799FD0463", 3269150, 1537477535, "706691", 1537477535, "706691", null, "714", "US ARMY FORT LEWIS PARK MARSH", "No Further Action", "Federal  - CERCLA", null, "EPA", null, "Pierce", "Southwest", "FORT LEWIS                              ", "TACOMA                   ", "98433-5000", "230", "28", "10", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=714", null ], "47.134060", "-122.579400", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.13406", "-122.5794", null, false ], "1994-06-30T00:00:00", "NFA-Site Hazard Assessment" ]
+, [ 3269162, "8E4BC279-7222-4813-9B87-9684A7878828", 3269162, 1537477535, "706691", 1537477535, "706691", null, "137", "USAF MAFB AMERICAN LK GDN", "Construction Complete-Performance Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Pierce", "Southwest", "62ABG DEEV", "MCCHORD AFB", "98438-5436", "239", "28", "10", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=137", null ], "47.133150", "-122.517900", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.13315", "-122.5179", null, false ], null, null ]
+, [ 3269170, "62542693-31EE-4E0B-9F26-0861236D4A54", 3269170, 1537477535, "706691", 1537477535, "706691", null, "136", "USAF MAFB WASHRACK", "Cleanup Complete-Active O&M/Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Pierce", "Southwest", "62ND CES CEV", "MCCHORD AFB", "98438-1325", "225", "28", "10", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=136", null ], "47.133150", "-122.484560", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.13315", "-122.48456", null, false ], null, null ]
+, [ 3269231, "FF95389A-A998-4598-A167-B1AB434CB284", 3269231, 1537477535, "706691", 1537477535, "706691", null, "135", "WELL 12A", "Construction Complete-Performance Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Headquarters", null, "Pierce", "Southwest", "3011 S FIFE ST                          ", "TACOMA                   ", "98421     ", "222", "29", "6", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=135", null ], "47.230440", "-122.470560", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.23044", "-122.47056", null, false ], null, null ]
+, [ 3270610, "29BD22F1-7713-4FE2-B5D5-E767D59840AE", 3270610, 1537477536, "706691", 1537477536, "706691", null, "565", "TULALIP LANDFILL", "Tracked by EPA", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Snohomish", "Northwest", "US HWY 99                               ", "MARYSVILLE               ", "98270     ", "191", "38", "2", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=565", null ], "48.041490", "-122.183470", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.04149", "-122.18347", null, false ], null, null ]
+, [ 3270855, "D309D03C-3867-40E0-8FFD-4565A001EC4D", 3270855, 1537477536, "706691", 1537477536, "706691", null, "3035", "COLBERT LANDFILL", "Cleanup Complete-Active O&M/Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Eastern", null, "Spokane", "Eastern", "22515 N ELK CHATTAROY RD                ", "SPOKANE                  ", "99005     ", "110", "4", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=3035", null ], "47.861734", "-117.350711", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.861734", "-117.350711", null, false ], null, null ]
+, [ 3270934, "0BAE3FDE-CE6B-4B2A-8699-A5C977A470BD", 3270934, 1537477536, "706691", 1537477536, "706691", null, "2277", "FUDS GEORGE WRIGHT AFB", "No Further Action", "Federal  - CERCLA", null, "Headquarters", null, "Spokane", "Eastern", "211 N GOVERNMENT WAY", "SPOKANE", "99224", "128", "6", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2277", null ], "47.657970", "-117.465190", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.65797", "-117.46519", null, false ], "2008-07-31T00:00:00", "NFA-SHA IRAP or VCP" ]
+, [ 3270947, "71D27CDD-84FA-4829-BE35-A0698C4BAF44", 3270947, 1537477536, "706691", 1537477536, "706691", null, "1082", "General Electric Co", "Construction Complete-Performance Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Eastern", "Yes", "Spokane", "Eastern", "4323 E MISSION AVE                      ", "SPOKANE                  ", "99212-1313", "630", "3", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=1082", null ], "47.671836", "-117.346809", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.671836", "-117.346809", null, false ], null, null ]
+, [ 3271020, "FCE35F25-B4FB-4BB7-88D5-6E370DA45F1C", 3271020, 1537477536, "706691", 1537477536, "706691", null, "1020", "Mica Landfill", "Cleanup Complete-Active O&M/Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Eastern", "Yes", "Spokane", "Eastern", "HIDDEN HOLLOW DR                        ", "MICA                     ", "99023     ", "633", "9", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=1020", null ], "47.574819", "-117.211925", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.574819", "-117.211925", null, false ], null, null ]
+, [ 3271045, "28DD66DD-4FB6-46DE-91E1-44E2B0605F08", 3271045, 1537477536, "706691", 1537477536, "706691", null, "1150", "North Market St", "Cleanup Complete-Active O&M/Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Eastern", null, "Spokane", "Eastern", "N MARKET ST & FREYA ST                  ", "SPOKANE                  ", "99207     ", "667", "7", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=1150", null ], "47.734112", "-117.365150", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.734112", "-117.36515", null, false ], null, null ]
+, [ 3271048, "45736235-0E81-478D-96A3-499A8B6B8FFF", 3271048, 1537477536, "706691", 1537477536, "706691", null, "2500", "Northside Landfill", "Cleanup Complete-Active O&M/Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "Eastern", "Yes", "Spokane", "Eastern", "7202 N NINE MILE RD", "SPOKANE", "99208", "111", "6", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2500", null ], "47.726627", "-117.485859", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.726627", "-117.485859", null, false ], null, null ]
+, [ 3271174, "402605B9-A365-4117-B32A-3E6CA5D705DB", 3271174, 1537477536, "706691", 1537477536, "706691", null, "2875", "SPOKANE JUNK YARD", "No Further Action", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Spokane", "Eastern", "3322 N COOK ST                          ", "SPOKANE                  ", "99207     ", "125", "3", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2875", null ], "47.687660", "-117.372871", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.68766", "-117.372871", null, false ], "1997-08-19T00:00:00", "NFA-Ecology Supervised/Conducted Cleanup" ]
+, [ 3271185, "E1BA2CA1-3C4A-4058-BFD4-76A96BB85A20", 3271185, 1537477536, "706691", 1537477536, "706691", null, "11577", "SPOKANE RIVER METALS STARR ROAD", "Cleanup Complete-Active O&M/Monitoring", "MTCA/CERCLA joint authority", null, "Eastern", null, "Spokane", "Eastern", "SPOKANE RIVER", "SPOKANE", "99027", "615198", "4", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=11577", null ], "47.683476", "-117.111652", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.683476", "-117.111652", null, false ], null, null ]
+, [ 3271243, "6E9BFF5D-435A-44CC-BDD0-C2FC110139A4", 3271243, 1537477536, "706691", 1537477536, "706691", null, "3036", "US AF FAIRCHILD AFB", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Spokane", "Eastern", "US HWY 2                                ", "SPOKANE                  ", "99011     ", "112", "6", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=3036", null ], "47.616560", "-117.517710", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.61656", "-117.51771", null, false ], null, null ]
+, [ 3271246, "CACBA455-EFF3-44E9-9115-541B0EB69599", 3271246, 1537477536, "706691", 1537477536, "706691", null, "2376", "US AF FAIRCHILD CRAIG RD LDFL", "Construction Complete-Performance Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Spokane", "Eastern", "US HWY 2                                ", "SPOKANE                  ", "99011     ", "113", "6", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2376", null ], "47.624890", "-117.517710", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.62489", "-117.51771", null, false ], null, null ]
+, [ 3271262, "C98117FF-BDD8-470F-9961-EA2AB669DAA0", 3271262, 1537477536, "706691", 1537477536, "706691", null, "2273", "USAF FAFB II NFA", "No Further Action", "Federal  - CERCLA", null, "Headquarters", null, "Spokane", "Eastern", "US HWY 2                                ", "SPOKANE                  ", "99011     ", "117", "6", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2273", null ], "47.616560", "-117.517710", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.61656", "-117.51771", null, false ], "1991-09-10T00:00:00", "NFA-SHA IRAP or VCP" ]
+, [ 3271263, "CC2FB3DE-ECE1-4F80-93B0-2500D253E176", 3271263, 1537477536, "706691", 1537477536, "706691", null, "2283", "USAF FAFB PR1", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Spokane", "Eastern", "US HWY 2                                ", "SPOKANE                  ", "99011     ", "114", "6", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2283", null ], "47.624890", "-117.517710", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.62489", "-117.51771", null, false ], null, null ]
+, [ 3271264, "98E8AEB8-E57B-403A-964A-3DAAC29118A5", 3271264, 1537477536, "706691", 1537477536, "706691", null, "2874", "USAF FAFB PR1 FT 1", "Construction Complete-Performance Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Spokane", "Eastern", "US HWY 2                                ", "SPOKANE                  ", "99011     ", "122", "6", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2874", null ], "47.624890", "-117.517710", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.62489", "-117.51771", null, false ], null, null ]
+, [ 3271265, "4B5CCE17-7243-4F5F-9B20-003A6BF581F7", 3271265, 1537477536, "706691", 1537477536, "706691", null, "2501", "USAF FAFB PR1 LTM", "Cleanup Complete-Active O&M/Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Spokane", "Eastern", "US HWY 2                                ", "SPOKANE                  ", "99011     ", "118", "6", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2501", null ], "47.624890", "-117.517710", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.62489", "-117.51771", null, false ], null, null ]
+, [ 3271266, "5B16BB61-E2A9-4488-9F62-F6DB5FE59385", 3271266, 1537477536, "706691", 1537477536, "706691", null, "2304", "USAF FAFB PR1 NFA", "No Further Action", "Federal  - CERCLA", null, "Headquarters", null, "Spokane", "Eastern", "US HWY 2                                ", "SPOKANE                  ", "99011     ", "124", "6", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2304", null ], "47.624890", "-117.517710", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.62489", "-117.51771", null, false ], "1993-07-14T00:00:00", "NFA-SHA IRAP or VCP" ]
+, [ 3271267, "37A29A65-9408-48B2-B69D-7F5A8A4768C3", 3271267, 1537477536, "706691", 1537477536, "706691", null, "2679", "USAF FAFB PR1 PS 2", "Construction Complete-Performance Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Spokane", "Eastern", "US HWY 2                                ", "SPOKANE                  ", "99011     ", "120", "6", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2679", null ], "47.624890", "-117.517710", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.62489", "-117.51771", null, false ], null, null ]
+, [ 3271268, "C1711EE5-828D-451A-813E-EBF883D097D1", 3271268, 1537477536, "706691", 1537477536, "706691", null, "2303", "USAF FAFB PR1 WW 1", "Cleanup Complete-Active O&M/Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Spokane", "Eastern", "US HWY 2                                ", "SPOKANE                  ", "99011     ", "123", "6", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2303", null ], "47.624890", "-117.517710", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.62489", "-117.51771", null, false ], null, null ]
+, [ 3271269, "5E918580-33D9-4F28-894E-B45B5F6C8524", 3271269, 1537477536, "706691", 1537477536, "706691", null, "2377", "USAF FAFB PR2", "Cleanup Complete-Active O&M/Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Spokane", "Eastern", "US HWY 2                                ", "SPOKANE                  ", "99011     ", "115", "6", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2377", null ], "47.624890", "-117.517710", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.62489", "-117.51771", null, false ], null, null ]
+, [ 3271270, "9C402175-1A86-4A68-B320-B0FA0CE16744", 3271270, 1537477536, "706691", 1537477536, "706691", null, "2126", "USAF FAFB PR2 LTM", "Construction Complete-Performance Monitoring", "Federal  - CERCLA", null, "EPA", null, "Spokane", "Eastern", "92 CES CEVR 100 W ENT ST STE 155        ", "FAIRCHILD AFB            ", "99011-9404", "72389311", "6", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2126", null ], "47.619252", "-117.651273", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.619252", "-117.651273", null, false ], null, null ]
+, [ 3271271, "515DA47E-9DE9-4B16-B4F8-9EA6E96BCF48", 3271271, 1537477536, "706691", 1537477536, "706691", null, "2274", "USAF FAFB PR2 NFA1", "No Further Action", "Federal  - CERCLA", null, "Headquarters", null, "Spokane", "Eastern", "US HWY 2                                ", "SPOKANE                  ", "99011     ", "119", "6", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2274", null ], "47.624890", "-117.517710", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.62489", "-117.51771", null, false ], "1992-10-05T00:00:00", "NFA-Site Hazard Assessment" ]
+, [ 3271272, "9CFF0D19-FFC1-41CB-B02C-AC898EA4FC36", 3271272, 1537477536, "706691", 1537477536, "706691", null, "2275", "USAF FAFB PR2 NFA2", "No Further Action", "Federal  - CERCLA", null, "Headquarters", null, "Spokane", "Eastern", "US HWY 2                                ", "SPOKANE                  ", "99011     ", "121", "6", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2275", null ], "47.624890", "-117.517710", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.62489", "-117.51771", null, false ], "1993-12-28T00:00:00", "NFA-Site Hazard Assessment" ]
+, [ 3271273, "D7743D43-B21F-4EEE-AF24-FAC090E36EC2", 3271273, 1537477536, "706691", 1537477536, "706691", null, "3010", "USAF FAFB PR2 PS1", "Construction Complete-Performance Monitoring", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Spokane", "Eastern", "92 CES CEVR 100 W ENT ST STE 155        ", "SPOKANE                  ", "99011-9404", "58757186", "6", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=3010", null ], "47.634549", "-117.659852", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.634549", "-117.659852", null, false ], null, null ]
+, [ 3271274, "77307543-EAE0-4558-9B47-070E48B3FA66", 3271274, 1537477536, "706691", 1537477536, "706691", null, "2284", "USAF FAFB PR3", "Cleanup Started", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Spokane", "Eastern", "US HWY 2                                ", "SPOKANE                  ", "99011     ", "116", "6", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2284", null ], "47.616560", "-117.517710", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.61656", "-117.51771", null, false ], null, null ]
+, [ 3271332, "24B2950D-B5BB-4259-97A5-6154472FEED2", 3271332, 1537477536, "706691", 1537477536, "706691", null, "2072", "Bonanza Mill Site", "Awaiting Cleanup", "MTCA/CERCLA joint authority", null, "Eastern", null, "Stevens", "Eastern", "State Route 20", "Colville", "99114", "1855603", "7", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2072", null ], "48.579062", "-117.957767", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.579062", "-117.957767", null, false ], null, null ]
+, [ 3271388, "F65B7991-6923-4C8B-A99E-564648D869AD", 3271388, 1537477536, "706691", 1537477536, "706691", null, "47", "LeRoi Co Smelter", "Cleanup Complete-Active O&M/Monitoring", "MTCA/CERCLA joint authority", "1 - Highest Assessed Risk", "Eastern", "Yes", "Stevens", "Eastern", "117 PARK RD                             ", "NORTHPORT                ", "99157     ", "767", "7", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=47", null ], "48.921259", "-117.772889", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.921259", "-117.772889", null, false ], null, null ]
+, [ 3271401, "94228A16-A585-4193-A614-B750D716D58E", 3271401, 1537477536, "706691", 1537477536, "706691", null, "783", "MIDNIGHT MINE", "Tracked by EPA", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Stevens", "Eastern", "T28N R37E S12                           ", "WELLPINIT                ", "99040     ", "761", "7", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=783", null ], "47.939391", "-118.086617", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.939391", "-118.086617", null, false ], null, null ]
+, [ 3271426, "8EC003BC-5633-4DE6-A9FA-7A131EC66875", 3271426, 1537477536, "706691", 1537477536, "706691", null, "12125", "Upper Columbia River Lake Roosevelt Site", "Cleanup Started", "Federal  - CERCLA", null, "Eastern", null, "Stevens", "Eastern", null, null, null, "17013", "7", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=12125", null ], "48.998333", "-117.633333", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.998333", "-117.633333", null, false ], null, null ]
+, [ 3271427, "C4AECA86-5AA7-4E6C-B43C-391EE472BE2B", 3271427, 1537477536, "706691", 1537477536, "706691", null, "4519", "US EPA Anderson Calhoun Mine Mill", "Cleanup Complete-Active O&M/Monitoring", "MTCA/CERCLA joint authority", null, "Eastern", "Yes", "Stevens", "Eastern", "T39N R41E S2                            ", "LEADPOINT                ", "99114     ", "8070626", "7", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=4519", null ], "48.929918", "-117.545805", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.929918", "-117.545805", null, false ], null, null ]
+, [ 3271655, "64061401-0276-4BA1-98B9-7C80B3FBE0C0", 3271655, 1537477536, "706691", 1537477536, "706691", null, "4492", "MERIDIAN CAMPUS CAMPUS MEADOWS PHASE 3", "No Further Action", "Federal  - CERCLA", null, "Southwest", null, "Thurston", "Southwest", "CAMPUS PARK DR NE & CAMPUS GLEN DR NE", "OLYMPIA", "98516", "2219897", "22", "10", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=4492", null ], "47.086209", "-122.743687", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.086209", "-122.743687", null, false ], "2008-06-05T00:00:00", "NFA-Voluntary Cleanup Program Review" ]
+, [ 3271707, "6D2FBC46-E468-46C7-952A-F26E22896B60", 3271707, 1537477536, "706691", 1537477536, "706691", null, "4616", "PALERMO WELLFIELD", "Tracked by EPA", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Thurston", "Southwest", "PALERMO AVE SE & O ST SE                ", "TUMWATER                 ", "98501     ", "55237647", "22", "10", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=4616", null ], "47.002120", "-122.905050", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "47.00212", "-122.90505", null, false ], null, null ]
+, [ 3271914, "3974062B-96FE-431C-BC00-2CB75C8E707F", 3271914, 1537477536, "706691", 1537477536, "706691", null, "11780", "FUDS HUMORIST OUTLYING FIELD", "Awaiting Cleanup", "Federal  - CERCLA", null, "Headquarters", null, "Walla Walla", "Eastern", "T8 N R31 E SECTION 4", "PASCO", "99323", "16980", "16", "4", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=11780", null ], "46.212703", "-118.905109", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.212703", "-118.905109", null, false ], null, null ]
+, [ 3271916, "0793441F-7D78-4378-8995-68C2A120FACC", 3271916, 1537477536, "706691", 1537477536, "706691", null, "2502", "FUDS WALLA WALLA AFB", "No Further Action", "Federal  - CERCLA", null, "Headquarters", null, "Walla Walla", "Eastern", "12TH AVE                                ", "WALLA WALLA              ", "99362     ", "129", "16", "5", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2502", null ], "46.083972", "-118.283722", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.083972", "-118.283722", null, false ], "1998-08-01T00:00:00", "Cleanup Completed not on HSL" ]
+, [ 3272039, "3F8C9EC1-E5FD-462B-8AE9-DC1697A49062", 3272039, 1537477536, "706691", 1537477536, "706691", null, "232", "AZURITE MINE TAILING PILE", "Cleanup Started", "Federal  - CERCLA", null, "Central", null, "Whatcom", "Northwest", "HARTS PASS RD", null, null, "2921", "42", "1", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=232", null ], "48.682758", "-120.781061", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.682758", "-120.781061", null, false ], null, null ]
+, [ 3272064, "9C1B3A93-113F-4EF7-BCF4-3BF1C9C85312", 3272064, 1537477536, "706691", 1537477536, "706691", null, "949", "BELLINGHAM PORT OF SQUALICUM", "No Further Action", "Federal  - CERCLA", null, "Northwest", null, "Whatcom", "Northwest", "SQUALICUM HARBOR                        ", "BELLINGHAM               ", "98227     ", "2912", "42", "2", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=949", null ], "48.758040", "-122.506710", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.75804", "-122.50671", null, false ], "2006-08-31T00:00:00", "NFA-Ecology Supervised/Conducted Cleanup" ]
+, [ 3272175, "C8293A76-F15C-4457-83A2-27B7448353B3", 3272175, 1537477536, "706691", 1537477536, "706691", null, "620", "FUDS BLAINE AFS", "No Further Action", "Federal  - CERCLA", null, "Headquarters", null, "Whatcom", "Northwest", "NEAR BIRCH BAY                          ", "BIRCH BAY                ", "98299     ", "196", "42", "1", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=620", null ], "48.912500", "-122.725000", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.9125", "-122.725", null, false ], "2000-04-05T00:00:00", "NFA-SHA IRAP or VCP" ]
+, [ 3272299, "D3C2FC84-636A-46DF-993B-14ADE55951C9", 3272299, 1537477536, "706691", 1537477536, "706691", null, "650", "NW Transformer Harkness", "Tracked by EPA", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Whatcom", "Northwest", "107 S HARKNESS ST                       ", "EVERSON                  ", "98247     ", "195", "42", "1", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=650", null ], "48.920590", "-122.344660", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.92059", "-122.34466", null, false ], null, null ]
+, [ 3272300, "0BC19621-58EA-46CD-A360-1F8A926F27DC", 3272300, 1537477536, "706691", 1537477536, "706691", null, "619", "NW TRANSFORMER MISSION POLE", "Tracked by EPA", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Whatcom", "Northwest", "6882 MISSION ST                         ", "EVERSON                  ", "98247     ", "194", "42", "1", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=619", null ], "48.891110", "-122.352980", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.89111", "-122.35298", null, false ], null, null ]
+, [ 3272352, "794EC980-DA75-4F80-918B-1FA0B22C4CCF", 3272352, 1537477536, "706691", 1537477536, "706691", null, "4619", "REESE HILL ROAD SITE", "No Further Action", "Federal  - CERCLA", null, "Northwest", null, "Whatcom", "Northwest", "5301 REESE HILL RD                      ", "SUMAS                    ", "98295     ", "64775283", "42", "1", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=4619", null ], "48.969193", "-122.198749", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "48.969193", "-122.198749", null, false ], "2001-12-26T00:00:00", "NFA-Site Hazard Assessment" ]
+, [ 3272737, "8E0326AC-476D-4D49-AF4F-7AA51F08A338", 3272737, 1537477537, "706691", 1537477537, "706691", null, "2677", "FMC YAKIMA", "Tracked by EPA", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", "Yes", "Yakima", "Central", "4 W WASHINGTON AVE                      ", "YAKIMA                   ", "98903     ", "102", "14", "4", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2677", null ], "46.570410", "-120.494860", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.57041", "-120.49486", null, false ], null, null ]
+, [ 3272871, "AE954B72-7C0C-4589-A6A1-83F64E37EFDD", 3272871, 1537477537, "706691", 1537477537, "706691", null, "6311", "PARK N PAK", "No Further Action", "Federal  - CERCLA", null, "Central", null, "Yakima", "Central", "905 LINCOLN AVE                         ", "SUNNYSIDE                ", "98944     ", "56875216", "15", "4", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=6311", null ], "46.316090", "-120.008370", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.31609", "-120.00837", null, false ], "2001-07-11T00:00:00", "NFA-Voluntary Cleanup Program Review" ]
+, [ 3272999, "8BFE0EAB-5C3F-49F8-90CF-0ED49E9B6B42", 3272999, 1537477537, "706691", 1537477537, "706691", null, "2301", "US ARMY Yakima Training Center", "Construction Complete-Performance Monitoring", "Federal  - CERCLA", "2 - Moderate-High Risk", "Central", null, "Yakima", "Central", "DENR BLDG 810                           ", "YAKIMA                   ", "98901-9399", "105", "15", "4", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2301", null ], "46.675600", "-120.365100", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.6756", "-120.3651", null, false ], null, null ]
+, [ 3273003, "93E931AC-0635-4133-BC55-9AF0C0E8C832", 3273003, 1537477537, "706691", 1537477537, "706691", null, "3034", "US DA PESTICIDE LABORATORY", "No Further Action", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Yakima", "Central", "3706 W NOB HILL BLVD", "YAKIMA", "98902", "103", "14", "4", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=3034", null ], "46.585000", "-120.557548", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.585", "-120.557548", null, false ], "1993-09-07T00:00:00", "NFA-Ecology Supervised/Conducted Cleanup" ]
+, [ 3273005, "483BBC4D-EA99-4439-9103-D9E1B5510686", 3273005, 1537477537, "706691", 1537477537, "706691", null, "1866", "USFS SOUTH ROADS SITE", "No Further Action", "Federal  - CERCLA", null, "Central", null, "Yakima", "Central", "OLD NACHES RD & HWY 410                 ", "NACHES                   ", "98937     ", "549", "14", "4", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=1866", null ], "46.748333", "-120.788305", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.748333", "-120.788305", null, false ], "1998-01-20T00:00:00", "NFA-Site Hazard Assessment" ]
+, [ 3273085, "5D37C5BF-0F11-40B3-A53A-F411DEF901F3", 3273085, 1537477537, "706691", 1537477537, "706691", null, "2499", "YAKIMA PLATING", "No Further Action", "Federal  - CERCLA", "0 - NPL Site (Fed HRS Score)", "EPA", null, "Yakima", "Central", "1804 1/2 S 3RD AVE", "YAKIMA", "98902", "104", "15", "4", [ "https://fortress.wa.gov/ecy/gsp/Sitepage.aspx?csid=2499", null ], "46.572650", "-120.509870", [ "{\"address\":\"&quot;&quot;\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "46.57265", "-120.50987", null, false ], "1994-08-23T00:00:00", "NFA-Ecology Supervised/Conducted Cleanup" ]
+ ]
+}
