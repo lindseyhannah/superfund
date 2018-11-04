@@ -2,6 +2,8 @@
 <html>
 <head>
 	<!--This is the CSS and JavaScript libraries-->
+	<script src="jquery-2.1.1.min.js"></script> 
+
 	 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
    integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
    crossorigin=""/>
@@ -42,11 +44,7 @@
 				featureLayer.bindPopup(feature.properties.sitename);
 			},
 		}).addTo(map);
-		
-		var markers= LmarkerClusterGroup();
-		markers.addLayer(datalayer);
-		map.addLayer(markers);
-		map.fitBounds(markers.getBounds());
+
 	});
 
 </Script>
