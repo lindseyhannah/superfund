@@ -11,6 +11,7 @@
    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
    integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
    crossorigin=""></script>
+
     <style>
     	#map {height: 80vh; background-color: grey;}
     </style>
@@ -39,22 +40,6 @@
 
     //Import the GeoJson data and add to map
 	//Source: https://skytruth-org.carto.com/tables/epa_superfund_sites/public
-	var smallMarker = {
-    radius: 1,
-    fillColor: "#FF0000",
-    color: "#000",
-    weight: 1,
-    opacity: 1,
-    fillOpacity: 0.8
-};
-
-    L.geoJSON(data, {
-    	pointToLayer: function (feature, latlng) {
-        	return L.circleMarker(latlng, smallMarker);
-    }
-}).addTo(map);
-
-
 	$.getJSON("superfund.geojson",function(data){
 
 		var datalayer= L.geoJson(data ,{
@@ -62,6 +47,7 @@
 				featureLayer.bindPopup(feature.properties.sitename);
 			},
 		}).addTo(map);
+
 
 
 </Script>
