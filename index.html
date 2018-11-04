@@ -34,13 +34,22 @@
     //create map variable and set the zoom/coordinates.  Add to map tile 
 	var map = new L.map("map", {
 		center:new L.LatLng(47.4, -120.2),
-		zoom: 8
+		zoom: 6
 	});
     map.addLayer(Stamen);
 
     //Import the GeoJson data and add to map
 	//Source: https://skytruth-org.carto.com/tables/epa_superfund_sites/public
-	$.getJSON("superfundWA.geojson",function(data){
+	//$.getJSON("superfundWA.geojson",function(data){
+
+	//	var datalayer= L.geoJson(data ,{
+			onEachFeature: function(feature, featureLayer) {
+	//			featureLayer.bindPopup(feature.properties.sitename);
+	//		},
+	//	}).addTo(map);
+
+//});
+	$.getJSON("censusWA.geojson",function(data){
 
 		var datalayer= L.geoJson(data ,{
 			onEachFeature: function(feature, featureLayer) {
@@ -49,7 +58,6 @@
 		}).addTo(map);
 
 });
-
 
 </Script>
 
