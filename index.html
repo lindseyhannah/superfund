@@ -39,6 +39,10 @@
 
 	//Source: https://skytruth-org.carto.com/tables/epa_superfund_sites/public
 	$.getJSON("superfund.geojson",function(data){
+		var skulIcon= L.icon({
+			iconUrl: 'skull.png',
+			iconSize: [50,40]
+		});
 		var datalayer= L.geoJson(data ,{
 			onEachFeature: function(feature, featureLayer) {
 				featureLayer.bindPopup(feature.properties.sitename);
