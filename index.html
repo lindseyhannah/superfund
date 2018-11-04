@@ -33,13 +33,17 @@
 	}).addTo(map);
 
 	//Source: https://skytruth-org.carto.com/tables/epa_superfund_sites/public
-	//$.getJSON("superfund.geojson",function(data){
-	//	var datalayer= L.geoJson(data ,{
-//		L.geoJson(data).addTo(map);
-//	}).addTo(map);
-//	});
-
-
+	.getJSON("superfund.geojson",function(data){
+		var datalayer= L.geoJson(data ,{
+			onEachFeature: function(feature, featureLayer) {
+				featureLayer.bindPopup(feature.properties.sitename);
+			}
+		});
+		var markers= LmarkerClusterGroup();
+		markers.addLayer(datalayer);
+		map.addLayer(markers);
+		map.fitBounds(markers.getBounds());
+	});
 
 </Script>
 
