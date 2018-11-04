@@ -27,19 +27,37 @@
 
 
 	<Script>
+	//import the map tile
     var Stamen=L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}{r}.png', {
 	attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
 	minZoom: 0,
 	maxZoom: 20,
     });
-
+    //create map variable and set the zoom/coordinates.  Add to map tile 
 	var map = new L.map("map", {
 		center:new L.LatLng(39, -95),
 		zoom: 3
 	});
     map.addLayer(Stamen);
 
+    //Import the GeoJson data and add to map
 	//Source: https://skytruth-org.carto.com/tables/epa_superfund_sites/public
+	var smallMarker = {
+    radius: 1,
+    fillColor: "#FF0000",
+    color: "#000",
+    weight: 1,
+    opacity: 1,
+    fillOpacity: 0.8
+};
+
+    L.geoJSON(data, {
+    	pointToLayer: function (feature, latlng) {
+        	return L.circleMarker(latlng, smallMarker);
+    }
+}).addTo(map);
+
+
 	$.getJSON("superfund.geojson",function(data){
 
 		var datalayer= L.geoJson(data ,{
@@ -48,16 +66,6 @@
 			},
 		}).addTo(map);
 
-	//Create the marker cluster group
-			var markers = L.markerClusterGroup();
-			//Add the markers to the datalayer
-			markers.addLayer(datalayer);
-			//add the markers to the map
-			map.addLayer(markers);
-			
-
-			map.fitBounds(markers.getBounds());
-			});
 
 </Script>
 
