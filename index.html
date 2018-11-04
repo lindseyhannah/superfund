@@ -39,14 +39,37 @@
 
 	//Source: https://skytruth-org.carto.com/tables/epa_superfund_sites/public
 	$.getJSON("superfund.geojson",function(data){
-		var skulIcon= L.icon({
-			iconUrl: 'skull.png',
-			iconSize: [50,40]
-		});
+        var status= [{
+        	"type": "Feature",
+        	"properties": {"nationalprioritiesliststatus": "Deleted from the Final NPL"},
+        	"geometry": {
+        		"type":"point",
+        		"coordinates": []
+        	}
+        }]
+            var status= [{
+        	"type": "Feature",
+        	"properties": {"nationalprioritiesliststatus": "Site is Part of NPL Site"},
+        	"geometry": {
+        		"type":"point",
+        		"coordinates": []
+        	}
+        }]
+        L.geoJSON(status, {
+        	style: function(feature) {
+        		switch (feature.properties.nationalprioritiesliststatus) {
+        			case 'Deleted from the Final NPL': return {color: "#ff0000"};
+        			case 'Site is Part of NPL site': return {color: "#0000ff"};
+
+
+        		}
+        	}
+        })
 		var datalayer= L.geoJson(data ,{
 			onEachFeature: function(feature, featureLayer) {
 				featureLayer.bindPopup(feature.properties.sitename);
 			},
+
 		}).addTo(map);
 
 	});
