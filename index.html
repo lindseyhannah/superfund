@@ -34,11 +34,12 @@
 
 	//Source: https://skytruth-org.carto.com/tables/epa_superfund_sites/public
 	$.getJSON("superfund.geojson",function(data){
-		var datalayer= L.geoJson(data , {
-		onEachFeature:function(feature, featureLayer) {
+		var datalayer= L.geoJson(data ,{
+		onEachFeature: function(feature, featureLayer) {
 			featureLayer.bindPopup(feature.properties.sitename);
 		}
 	
+	}).addTo(map);
 	});
 
 
