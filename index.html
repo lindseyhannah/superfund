@@ -38,17 +38,19 @@
 	});
     map.addLayer(Stamen);
 
-    //Import the GeoJson data and add to map
+    //Import the GeoJson data with Superfund sites and add to map
 	//Source: https://skytruth-org.carto.com/tables/epa_superfund_sites/public
-	//$.getJSON("superfundWA.geojson",function(data){
+	$.getJSON("superfundWA.geojson",function(data){
 
-	//	var datalayer= L.geoJson(data ,{
-	//		onEachFeature: function(feature, featureLayer) {
-	//			featureLayer.bindPopup(feature.properties.sitename);
-	//		},
-	//	}).addTo(map);
+		var datalayer= L.geoJson(data ,{
+			onEachFeature: function(feature, featureLayer) {
+				featureLayer.bindPopup(feature.properties.sitename);
+			},
+		}).addTo(map);
 
-//});
+});
+//Source: https://www.census.gov/geo/maps-data/data/cbf/cbf_sld.html
+//converted via mapshaper to GEOJSON
 	$.getJSON("censusWA.geojson",function(data){
 
 		var datalayer= L.geoJson(data ,{
@@ -58,6 +60,7 @@
 		}).addTo(map);
 
 });
+
 
 </Script>
 
