@@ -40,8 +40,9 @@
 		var datalayer= L.geoJson(data ,{
 			onEachFeature: function(feature, featureLayer) {
 				featureLayer.bindPopup(feature.properties.sitename);
-			}
-		});
+			},
+		}).addTo(map);
+		
 		var markers= LmarkerClusterGroup();
 		markers.addLayer(datalayer);
 		map.addLayer(markers);
