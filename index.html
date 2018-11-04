@@ -41,22 +41,7 @@
     //Import the GeoJson data and add to map
 	//Source: https://skytruth-org.carto.com/tables/epa_superfund_sites/public
 	$.getJSON("superfund.geojson",function(data){
-		var washington = [{
-    		"type": "Feature",
-    		"properties": {
-      		  "state": "WA",
-      		  "show_on_map": true
-    		},
-    		"geometry": {
-       		 "type": "Point",
-    }
-}];
 
-	L.geoJSON(washington, {
-    filter: function(feature, layer) {
-        return feature.properties.show_on_map;
-    }
-}).addTo(map);
 		var datalayer= L.geoJson(data ,{
 			onEachFeature: function(feature, featureLayer) {
 				featureLayer.bindPopup(feature.properties.sitename);
