@@ -53,7 +53,7 @@
 
 		var datalayer= L.geoJson(data ,{
 			onEachFeature: function(feature, featureLayer) {
-				featureLayer.bindPopup(feature.properties.sitename);
+				featureLayer.bindPopup(feature.properties.NAME);
 			},
 		}).addTo(map);
 
