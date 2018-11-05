@@ -62,18 +62,13 @@
 });
 //Source: https://www.census.gov/geo/maps-data/data/cbf/cbf_sld.html
 //converted via mapshaper to GEOJSON
-	//$.getJSON("censusWA.geojson",function(data){
-//	var datalayer= L.geoJson(data ,{
-	//		style:function(feature){
-//				var fillColor,
-//
-//			}
-	//		onEachFeature: function(feature, featureLayer) {
-//				featureLayer.bindPopup(feature.properties.NAME);
-//			},
-//		}).addTo(map);
-
-//});
+	$.getJSON("censusWA.geojson",function(data){
+		var datalayer= L.geoJson(data ,{
+			onEachFeature: function(feature, featureLayer) {
+				featureLayer.bindPopup(feature.properties.NAME);
+			},
+		}).addTo(map);
+});
 
 
 </Script>
