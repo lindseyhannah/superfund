@@ -49,7 +49,7 @@
 
 		L.geoJson(data ,{
 			pointToLayer: function(feature,latlng){
-				var marker= L.marker(latlng, {icon: skullIcon});marker.bindPopup(feature.properties.sitename + '<br/>' + feature.properties.streetaddress + '<br/>' + feature.properties.nationalprioritiesliststatus);
+				var marker= L.marker(latlng, {icon: skullIcon});marker.bindPopup("Site Name" feature.properties.sitename + '<br/>' + feature.properties.streetaddress + '<br/>' + feature.properties.nationalprioritiesliststatus);
 				return marker;
 			}
 		}).addTo(map); 
