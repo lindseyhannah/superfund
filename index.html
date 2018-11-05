@@ -61,8 +61,8 @@
 });
 //Source: https://www.census.gov/geo/maps-data/data/cbf/cbf_sld.html
 //converted via mapshaper to GEOJSON
-	$.getJSON("censusWA.geojson",function(data){
-		L.geoJson(data ,{
+	$.getJSON("censusWA.geojson",function(nameData){
+		L.geoJson( nameDATA ,{
 			style: function(feature){
 				var fillColor,
 				districtId = feature.properties.NAME;
