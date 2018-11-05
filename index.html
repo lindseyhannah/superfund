@@ -49,8 +49,8 @@
 
 		L.geoJson(data ,{
 			pointToLayer: function(feature,latlng){
-				marker.bindPopup(feature.properties.sitename + '<br/>' + feature.properties.streetaddress + '<br/>' + feature.properties.nationalprioritiesliststatus);
-				return L.marker(latlng, {icon: skullIcon});
+				var marker= L.marker(latlng, {icon: skullIcon});marker.bindPopup(feature.properties.sitename + '<br/>' + feature.properties.streetaddress + '<br/>' + feature.properties.nationalprioritiesliststatus);
+				return marker;
 			}
 		}).addTo(map); 
 			//onEachFeature: function(feature, featureLayer) {
