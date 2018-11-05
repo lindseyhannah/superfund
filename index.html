@@ -17,7 +17,7 @@
     </style>
 
 	<title>
-     Superfund sites in the US
+     Superfund sites in Washington 
 	</title>
 </head>
 <body>
@@ -41,12 +41,20 @@
     //Import the GeoJson data with Superfund sites and add to map
 	//Source: https://skytruth-org.carto.com/tables/epa_superfund_sites/public
 	$.getJSON("superfundWA.geojson",function(data){
+        var skullIcon= L.icon({
+        	iconUrl: 'skull.png',
+        	iconSize: [20,20]
+        });
 
-		var datalayer= L.geoJson(data ,{
-			onEachFeature: function(feature, featureLayer) {
-				featureLayer.bindPopup(feature.properties.sitename);
-			},
-		}).addTo(map);
+		L.geoJson(data ,{
+			pointToLayer: function(feature,latlng){
+				return L.marker(latlng, {icon: skullIcon});
+			}
+		}).addTo(map); 
+			//onEachFeature: function(feature, featureLayer) {
+			//	featureLayer.bindPopup(feature.properties.sitename);
+			//},
+		//}).addTo(map);
 
 });
 //Source: https://www.census.gov/geo/maps-data/data/cbf/cbf_sld.html
