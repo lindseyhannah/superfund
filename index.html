@@ -43,11 +43,13 @@
 	$.getJSON("superfundWA.geojson",function(data){
         var skullIcon= L.icon({
         	iconUrl: 'skull.png',
-        	iconSize: [30,30]
+        	iconSize: [22,22]
+        	
         });
 
 		L.geoJson(data ,{
 			pointToLayer: function(feature,latlng){
+				marker.bindPopup(feature.properties.sitename + '<br/>' + feature.properties.streetaddress + '<br/>' + feature.properties.nationalprioritiesliststatus);
 				return L.marker(latlng, {icon: skullIcon});
 			}
 		}).addTo(map); 
