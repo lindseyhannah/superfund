@@ -49,7 +49,7 @@
 
 		L.geoJson(data ,{
 			pointToLayer: function(feature,latlng){
-				var marker= L.marker(latlng, {icon: skullIcon});marker.bindPopup("Site Name" feature.properties.sitename + '<br/>' + feature.properties.streetaddress + '<br/>' + feature.properties.nationalprioritiesliststatus);
+				var marker= L.marker(latlng, {icon: skullIcon});marker.bindPopup(feature.properties.sitename + '<br/>' + feature.properties.streetaddress + '<br/>' + feature.properties.nationalprioritiesliststatus);
 				return marker;
 			}
 		}).addTo(map); 
@@ -62,11 +62,29 @@
 //Source: https://www.census.gov/geo/maps-data/data/cbf/cbf_sld.html
 //converted via mapshaper to GEOJSON
 	$.getJSON("censusWA.geojson",function(data){
-
-		var datalayer= L.geoJson(data ,{
-			onEachFeature: function(feature, featureLayer) {
-				featureLayer.bindPopup(feature.properties.NAME);
+		L.geoJson(data ,{
+			style: function(feature){
+				var fillColor,
+				districtId = feature.properties.NAME;
+				if (NAME > 45 ) fillColor = "#8c510a";
+				else if (NAME >40 ) fillColor= "#bf812d";
+				else if (NAME >35 ) fillColor= "#dfc27d";
+				else if (NAME >30 ) fillColor= "#f6e8c3";
+				else if (NAME >25 ) fillColor= "#f5f5f5";
+				else if (NAME >20 ) fillColor= "#c7eae5";
+				else if (NAME >15 ) fillColor= "#80cdc1";
+				else if (NAME >10 ) fillColor= "#35978f";
+				else if (NAME >5 ) fillColor= "#01665e";
+				else if (NAME >0 ) fillColor= "#003c30";
+				return	{color: "#999", weight: 1, fillColor:fillColorm fillOpacity: .5};
 			},
+			onEachFeature:function (feature, layer) {
+				layer.bindPopup(feature.property.NAME)}
+		
+		//var datalayer= L.geoJson(data ,{
+		//	onEachFeature: function(feature, featureLayer) {
+		//		featureLayer.bindPopup(feature.properties.NAME);
+		//	},
 		}).addTo(map);
 
 });
