@@ -26,8 +26,9 @@
 
 	<Script>
 	//import the map tile
-    var Stamen=L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}{r}.png', {
+    var Stamen=L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png', {
 	attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+	subdomains: 'abcd',
 	minZoom: 0,
 	maxZoom: 20,
     });
@@ -61,30 +62,16 @@
 });
 //Source: https://www.census.gov/geo/maps-data/data/cbf/cbf_sld.html
 //converted via mapshaper to GEOJSON
-	$.getJSON("censusWA.geojson",function(nameData){
-		L.geoJson( nameDATA ,{
-			style: function(feature){
+	$.getJSON("censusWA.geojson",function(data){
+
+		var datalayer= L.geoJson(data ,{
+			style:function(feature){
 				var fillColor,
-				districtId = feature.properties.NAME;
-				if (NAME > 45 ) fillColor = "#8c510a";
-				else if (NAME >40 ) fillColor= "#bf812d";
-				else if (NAME >35 ) fillColor= "#dfc27d";
-				else if (NAME >30 ) fillColor= "#f6e8c3";
-				else if (NAME >25 ) fillColor= "#f5f5f5";
-				else if (NAME >20 ) fillColor= "#c7eae5";
-				else if (NAME >15 ) fillColor= "#80cdc1";
-				else if (NAME >10 ) fillColor= "#35978f";
-				else if (NAME >5 ) fillColor= "#01665e";
-				else if (NAME >0 ) fillColor= "#003c30";
-				return	{color: "#999", weight: 1, fillColor:fillColor, fillOpacity: .5};
+
+			}
+			onEachFeature: function(feature, featureLayer) {
+				featureLayer.bindPopup(feature.properties.NAME);
 			},
-			onEachFeature:function (feature, layer) {
-				layer.bindPopup(feature.property.NAME)}
-		
-		//var datalayer= L.geoJson(data ,{
-		//	onEachFeature: function(feature, featureLayer) {
-		//		featureLayer.bindPopup(feature.properties.NAME);
-		//	},
 		}).addTo(map);
 
 });
