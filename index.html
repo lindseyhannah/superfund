@@ -37,12 +37,12 @@
 	attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
 	subdomains: 'abcd',
 	minZoom: 0,
-	maxZoom: 20,
+	maxZoom: 30,
     });
     //create map variable and set the zoom/coordinates.  Add to map tile 
 	var map = new L.map("map", {
 		center:new L.LatLng(47.4, -120.2),
-		zoom: 6
+		zoom: 5.5
 	});
     map.addLayer(Stamen);
 
@@ -61,7 +61,7 @@
 				return marker;
 			}
 		});
-		var clusters= L.markerClusterGroup();
+		var cluster= L.markerClusterGroup();
 		clusters.addLayer(superfund);
 		map.addLayer(clusters);
 });
