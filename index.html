@@ -74,14 +74,21 @@
 });
 //Source: https://www.census.gov/geo/maps-data/data/cbf/cbf_sld.html
 //converted via mapshaper to GEOJSON
+	var polystyle= {
+		"fillcolor": "#f7800",
+		"opacity": .5
+	};
+
 	$.getJSON("map.geojson",function(data){
 		L.geoJson(data ,{
+
 		//	style: function(feature){
 		//		var fillColor,
 		//		return {color: "999", fillColor:fillColor, //fillOpacity: .5};
 		//	},
 			onEachFeature: function(feature, featureLayer) {
 				featureLayer.bindPopup(feature.properties.District_N+ '<br/>' + feature.properties.REP + '<br/>' + feature.properties.PHONE);
+				style: polystyle
 			},
 		}).addTo(map);
 });
