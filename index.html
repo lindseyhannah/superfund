@@ -20,7 +20,7 @@
    <script src="jquery-2.1.1.min.js"></script> 
 
     <style>
-    	#map {height: 70vh; background-color: grey;}
+    	#map {height: vh; background-color: grey;}
     	body {background-color: Honeydew;}
     	h1 {color: MidnightBlue;}
     	p {color: MidnightBlue;}
@@ -46,7 +46,7 @@
 
 	<Script>
 	//import the map tile
-    var OpenStreet=L.tileLayer('https:{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png', {
+    var OpenStreetMap_DE = L.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png', {
 	maxZoom: 18,
 	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 });
@@ -55,7 +55,7 @@
 		center:new L.LatLng(47.4, -120.2),
 		zoom: 7
 	});
-    map.addLayer(OpenStreet);
+    map.addLayer(OpenStreetMap_DE);
 
 
 
