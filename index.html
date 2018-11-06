@@ -68,7 +68,12 @@
 //Source: https://www.census.gov/geo/maps-data/data/cbf/cbf_sld.html
 //converted via mapshaper to GEOJSON
 	$.getJSON("map.geojson",function(data){
+		var polystyle= {
+			"color": "red",
+			"opacity": 0.4
+		};
 		var datalayer= L.geoJson(data ,{
+			style: polystyle
 			onEachFeature: function(feature, featureLayer) {
 				featureLayer.bindPopup(feature.properties.District_N+ '<br/>' + feature.properties.REP + '<br/>' + feature.properties.PHONE);
 			},
