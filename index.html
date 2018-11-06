@@ -28,9 +28,6 @@
 	</title>
 </head>
 <body>
-
-
-
 	<div id= "map"> </div>
 
 
@@ -49,12 +46,7 @@
 	});
     map.addLayer(Stamen);
 
-    function style(feature) {
-    	return {
-    		fillOpacity: 50
-    		color: '#FF0000';
-    	};
-    }
+
 
     //Import the GeoJson data with Superfund sites and add to map
 	//Source: https://skytruth-org.carto.com/tables/epa_superfund_sites/public
@@ -78,11 +70,17 @@
 //Source: https://www.census.gov/geo/maps-data/data/cbf/cbf_sld.html
 //converted via mapshaper to GEOJSON
 	$.getJSON("map.geojson",function(data){
-		var datalayer= L.geoJson(data ,{
+		L.geoJson(data ,{
+			style: function(feature){
+				var fillColor,
+				district= feature.properties.OBJECTID;
+				if (OBJECTID> 5) fillColor= "f03b20";
+				else if (OBJECTID > 0) fillColor= "f03b20";
+				return {color: "999", fillColor:fillColor, fillOpacity: ,5};
+			},
 			onEachFeature: function(feature, featureLayer) {
 				featureLayer.bindPopup(feature.properties.District_N+ '<br/>' + feature.properties.REP + '<br/>' + feature.properties.PHONE);
 			},
-			style: style
 		}).addTo(map);
 });
 
