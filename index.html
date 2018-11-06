@@ -67,10 +67,10 @@
 });
 //Source: https://www.census.gov/geo/maps-data/data/cbf/cbf_sld.html
 //converted via mapshaper to GEOJSON
-	$.getJSON("CongressionalDist.geojson",function(data){
+	$.getJSON("map.geojson",function(data){
 		var datalayer= L.geoJson(data ,{
 			onEachFeature: function(feature, featureLayer) {
-				featureLayer.bindPopup(feature.properties.District_N);
+				featureLayer.bindPopup(feature.properties.District_N+ '<br/>' + feature.properties.REP + '<br/>' + feature.properties.PHONE);
 			},
 		}).addTo(map);
 });
