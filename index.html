@@ -76,7 +76,7 @@
 				district= feature.properties.OBJECTID;
 				if (OBJECTID> 5) fillColor= "f03b20";
 				else if (OBJECTID > 0) fillColor= "f03b20";
-				return {color: "999", fillColor:fillColor, fillOpacity: ,5};
+				return {color: "999", fillColor:fillColor, fillOpacity: .5};
 			},
 			onEachFeature: function(feature, featureLayer) {
 				featureLayer.bindPopup(feature.properties.District_N+ '<br/>' + feature.properties.REP + '<br/>' + feature.properties.PHONE);
