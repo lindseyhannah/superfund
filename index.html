@@ -20,7 +20,7 @@
    <script src="jquery-2.1.1.min.js"></script> 
 
     <style>
-    	#map {height: 80vh; background-color: grey;}
+    	#map {height: 70vh; background-color: grey;}
     	body {background-color: Honeydew;}
     	h1 {color: MidnightBlue;}
     	p {color: MidnightBlue;}
@@ -46,18 +46,16 @@
 
 	<Script>
 	//import the map tile
-    var Stamen=L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png', {
-	attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-	subdomains: 'abcd',
-	minZoom: 0,
-	maxZoom: 30,
-    });
+    var OpenStreet=L.tileLayer('https:{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png', {
+	maxZoom: 18,
+	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+});
     //create map variable and set the zoom/coordinates.  Add to map tile 
 	var map = new L.map("map", {
 		center:new L.LatLng(47.4, -120.2),
 		zoom: 7
 	});
-    map.addLayer(Stamen);
+    map.addLayer(OpenStreet);
 
 
 
