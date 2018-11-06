@@ -70,7 +70,7 @@
 	$.getJSON("WACongressionalDist.geojson",function(data){
 		var datalayer= L.geoJson(data ,{
 			onEachFeature: function(feature, featureLayer) {
-				featureLayer.bindPopup(feature.properties.OBJECTID + '<br/>' + feature.properties.REP + '<br/>' + feature.properties.PHONE);
+				featureLayer.bindPopup(feature.properties.OBJECTID + '<br/>' + feature.properties.REP);
 			}
 		}).addTo(map);
 });
