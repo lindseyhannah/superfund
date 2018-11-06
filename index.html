@@ -71,7 +71,7 @@
 		var datalayer= L.geoJson(data ,{
 			onEachFeature: function(feature, featureLayer) {
 				featureLayer.bindPopup(feature.properties.OBJECTID);
-			}
+			},
 		}).addTo(map);
 });
 
