@@ -67,10 +67,10 @@
 });
 //Source: https://www.census.gov/geo/maps-data/data/cbf/cbf_sld.html
 //converted via mapshaper to GEOJSON
-	$.getJSON("censusWA.geojson",function(data){
+	$.getJSON("WACongressionalDist.geojson",function(data){
 		var datalayer= L.geoJson(data ,{
 			onEachFeature: function(feature, featureLayer) {
-				featureLayer.bindPopup(feature.properties.NAME);
+				featureLayer.bindPopup(feature.properties.OBJECTID);
 			},
 		}).addTo(map);
 });
