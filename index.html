@@ -71,10 +71,10 @@
 //converted via mapshaper to GEOJSON
 	$.getJSON("map.geojson",function(data){
 		L.geoJson(data ,{
-			style: function(){
-				var fillColor,
-				return {color: "f03b20", fillColor:fillColor, fillOpacity: .5};
-			},
+		//	style: function(feature){
+		//		var fillColor,
+		//		return {color: "999", fillColor:fillColor, //fillOpacity: .5};
+		//	},
 			onEachFeature: function(feature, featureLayer) {
 				featureLayer.bindPopup(feature.properties.District_N+ '<br/>' + feature.properties.REP + '<br/>' + feature.properties.PHONE);
 			},
