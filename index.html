@@ -70,9 +70,20 @@
         	
         });
 
+        var leafIcon=L.icon({
+        	iconUrl: 'leaf.png',
+        	iconSize: [22,22]
+        });
+
 		var superfund= L.geoJson(data ,{
 			pointToLayer: function(feature,latlng){
-				var marker= L.marker(latlng, {icon: skullIcon});marker.bindPopup(feature.properties.sitename + '<br/>' + feature.properties.streetaddress + '<br/>' + feature.properties.nationalprioritiesliststatus);
+				if (feature.properties.nationalprioritiesliststatus === "Currently on the Final NPL") {var marker= L.marker(latlng, {icon: skullIcon});
+				else if (feature.properties.nationalprioritiesliststatus=== "Deleted from the Final NPL") {var marker= L.marker(latlng, {icon: leafIcon});
+            }
+				
+				var marker= L.marker(latlng, {icon: skullIcon});
+
+				marker.bindPopup(feature.properties.sitename + '<br/>' + feature.properties.streetaddress + '<br/>' + feature.properties.nationalprioritiesliststatus);
 				return marker;
 			}
 		});
