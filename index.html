@@ -79,7 +79,7 @@
 			pointToLayer: function(feature,latlng){
 				if (feature.properties.nationalprioritiesliststatus === "Currently on the Final NPL") {var marker= L.marker(latlng, {icon: skullIcon});
 				else if (feature.properties.nationalprioritiesliststatus=== "Deleted from the Final NPL") {var marker= L.marker(latlng, {icon: leafIcon});
-            }
+            },
 				
 				var marker= L.marker(latlng, {icon: skullIcon});
 
