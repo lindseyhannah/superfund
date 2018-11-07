@@ -81,13 +81,13 @@
 					console.log("hello1");
 					var marker= L.marker(latlng, {icon: skullIcon});
 					marker.bindPopup(feature.properties.sitename + '<br/>' + feature.properties.streetaddress + '<br/>' + feature.properties.	nationalprioritiesliststatus);
-						//return marker;
+						return marker;
 					}
 				else if (feature.properties.nationalprioritiesliststatus=== "Deleted from the Final NPL") {
 					console.log("hello2");
 					var marker= L.marker(latlng, {icon: leafIcon});
 					marker.bindPopup(feature.properties.sitename + '<br/>' + feature.properties.streetaddress + '<br/>' + feature.properties.nationalprioritiesliststatus);
-						//return marker;
+						return marker;
 					}
             
 				
