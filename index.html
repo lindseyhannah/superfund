@@ -78,16 +78,16 @@
 		var superfund= L.geoJson(data ,{
 			pointToLayer: function(feature,latlng){
 				if (feature.properties.nationalprioritiesliststatus === "Currently on the Final NPL") {
-					var marker= L.marker(latlng, {icon: skullIcon
-						marker.bindPopup(feature.properties.sitename + '<br/>' + feature.properties.streetaddress + '<br/>' + feature.properties.nationalprioritiesliststatus);
+					var marker= L.marker(latlng, {icon: skullIcon});
+					marker.bindPopup(feature.properties.sitename + '<br/>' + feature.properties.streetaddress + '<br/>' + feature.properties.	nationalprioritiesliststatus);
 						//return marker;
-					});
+					};
 				else if (feature.properties.nationalprioritiesliststatus=== "Deleted from the Final NPL") {
-					var marker= L.marker(latlng, {icon: leafIcon
-						marker.bindPopup(feature.properties.sitename + '<br/>' + feature.properties.streetaddress + '<br/>' + feature.properties.nationalprioritiesliststatus);
+					var marker= L.marker(latlng, {icon: leafIcon});
+					marker.bindPopup(feature.properties.sitename + '<br/>' + feature.properties.streetaddress + '<br/>' + feature.properties.nationalprioritiesliststatus);
 						//return marker;
-					});
-            }
+					};
+            
 				
 
 				/*marker.bindPopup(feature.properties.sitename + '<br/>' + feature.properties.streetaddress + '<br/>' + feature.properties.nationalprioritiesliststatus);
