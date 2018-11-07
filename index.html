@@ -85,15 +85,18 @@
 	var polystyle= {
 		weight: 1,
 		fillcolor: "#B22222",
+		fillopacity: 1,
+		color: "#000000",
 		opacity: .5
 	};
 
 	$.getJSON("map.geojson",function(data){
 		L.geoJson(data ,{
+			style: polystyle,
 			onEachFeature: function(feature, featureLayer) {
 				featureLayer.bindPopup(feature.properties.District_N+ '<br/>' + feature.properties.REP + '<br/>' + feature.properties.PHONE);
-				style: polystyle
-			},
+				
+			}
 		}).addTo(map);
 });
 
