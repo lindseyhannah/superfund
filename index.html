@@ -41,8 +41,6 @@
 		<p> Superfund sites are those areas where hazardous waste has been dumped or improperly handled. In cases where the responsible party can be identified, the EPA can force these parties to perform or pay for the cleanup.  In cases where no party can be identified, federal funding exists for cleanups.  The NPL (National Priorities List) is an up to date list of these sites.  Sites are removed once they have been sufficiently cleaned up. </P>
 		<p> Each icon represents a Superfund site. Click on the icons to see details about the site as well as the current NPL status. Sites that have been sufficiently cleaned  (and removed from the NPL) are marked with a leaf.  Current NPL sites are marked with a skull. Federal legislative districts are also mapped. If you are concerned about the status or pace of cleanup of any site in your district, contact you Federal Representative using the contact information in the popup. Information is current as of 11/12/2018 </p>
 
-	<hr>
-	<a href= "https://www.epa.gov/superfund/what-superfund"> To learn more about EPA Superfund sites, click here. </a>
 
 	<div id= "map"> </div>
 
@@ -108,7 +106,7 @@
 		fillcolor: "000000",
 		fillopacity: 1,
 		color: "#B22222",
-		opacity: .8
+		opacity: .95
 	};
 
 	$.getJSON("map.geojson",function(data){
@@ -126,6 +124,7 @@
 
 	<hr>
 
+	<a href= "https://www.epa.gov/superfund/what-superfund"> To learn more about EPA Superfund sites, click here. </a>
 
 
 
