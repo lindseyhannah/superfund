@@ -54,7 +54,7 @@
     //create map variable and set the zoom/coordinates.  Add to map tile 
 	var map = new L.map("map", {
 		center:new L.LatLng(47.4, -120.2),
-		zoom: 7
+		zoom: 6
 	});
     map.addLayer(OpenStreetMap_DE);
 
@@ -102,11 +102,11 @@
 //Source: https://www.census.gov/geo/maps-data/data/cbf/cbf_sld.html
 //converted via mapshaper to GEOJSON
 	var polystyle= {
-		weight: .7,
+		weight: .4,
 		fillcolor: "000000",
-		fillopacity: 1,
+		fillopacity: .5,
 		color: "#B22222",
-		opacity: .1
+		opacity: 1
 	};
 
 	$.getJSON("map.geojson",function(data){
