@@ -30,7 +30,7 @@
     </style>
 
 	<title>
-     Superfund sites in Washington 
+     Superfund sites in Washington State
 	</title>
 </head>
 <body>
@@ -41,7 +41,7 @@
 		<p> Superfund sites are those areas where hazardous waste has been dumped or improperly handled. In cases where the responsible party can be identified, the EPA can force these parties to perform or pay for the cleanup.  In cases where no party can be identified, federal funding exists for cleanups.  The NPL (National Priorities List) is an up to date list of these sites.  Sites are removed once they have been sufficiently cleaned up. </P>
 		<p> Each icon represents a past or current Superfund site. Click on the icons to see details about the site as well as the current NPL status. Sites that have been sufficiently cleaned (and removed from the NPL) are marked with a leaf.  Current NPL sites are marked with a skull. Federal legislative districts are also mapped. If you are concerned about the status or pace of cleanup of any site in your district, contact you Federal Representative using the contact information in the popup. Information is current as of 11/12/2018. </p>
 
-
+    <!-- This is making dis element for the map -->
 	<div id= "map"> </div>
 
 
@@ -62,18 +62,22 @@
 
     //Import the GeoJson data with Superfund sites and add to map
 	//Source: https://skytruth-org.carto.com/tables/epa_superfund_sites/public
+
 	$.getJSON("superfundWA.geojson",function(data){
-        var skullIcon= L.icon({
+     
+     //Set Icons and icon size    
+     var skullIcon= L.icon({
         	iconUrl: 'skull.png',
         	iconSize: [26,26]
         	
         });
-
+   
         var leafIcon=L.icon({
         	iconUrl: 'leaf.png',
         	iconSize: [22,22]
         });
 
+        //References geojson data and places a skull icon if site is on the NPL and a leaf icon if its been removed.  
 		var superfund= L.geoJson(data ,{
 			pointToLayer: function(feature,latlng){
 				if (feature.properties.nationalprioritiesliststatus === "Currently on the Final NPL") {
@@ -89,18 +93,18 @@
 						return marker;
 					}
             
-				
-
-				/*marker.bindPopup(feature.properties.sitename + '<br/>' + feature.properties.streetaddress + '<br/>' + feature.properties.nationalprioritiesliststatus);
-				return marker;*/
 			}
 		});
+
+		//This creates the clusters of icons and adds it to the map
 		var clusters= L.markerClusterGroup();
 		clusters.addLayer(superfund);
 		map.addLayer(clusters);
 });
+
 //Source: https://www.census.gov/geo/maps-data/data/cbf/cbf_sld.html
-//converted via mapshaper to GEOJSON
+//converted from SHP via mapshaper to GEOJSON
+	//setting the style for the polygons- red, black outline
 	var polystyle= {
 		weight: .3,
 		fillColor: "#B22222",
@@ -108,7 +112,7 @@
 		color: "#000000",
 		opacity: 1
 	};
-
+    //get the geojson data and place on map as polygons via polygon style set above.  Bind info to the popups, add to map
 	$.getJSON("map.geojson",function(data){
 		L.geoJson(data ,{
 			style: polystyle,
